@@ -49,9 +49,9 @@ export function Layout6() {
               Unlock Passive Income by Hosting EV Chargers at Your Home
             </h1>
             <p className="mb-6 md:mb-8 md:text-md text-black">
-              As a host, you can earn an average of AUD___ per month by renting
-              out your EV charger. Join our growing community of over ___
-              hosts and start generating passive income today!
+              As a host, you can earn an average of AUD 180 per month by renting
+              out your EV charger. Join our growing community of over 30 members
+              who joined our waitlist!
             </p>
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
               <div>
@@ -69,7 +69,7 @@ export function Layout6() {
                 </h6>
                 <p>
                   "Hosting has been a fantastic way to supplement my income!" -
-                  Kyle's Dad, Host
+                  William, Host
                 </p>
               </div>
             </div>

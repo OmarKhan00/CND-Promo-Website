@@ -95,7 +95,7 @@ export function Testimonial14() {
                 <span className="text-xl font-bold text-white">KD</span>
               </div>
               <div>
-                <p className="font-semibold text-white">Kyle's Dad</p>
+                <p className="font-semibold text-white">William </p>
                 <p className="text-white/70">Host, Private Residence</p>
               </div>
             </div>

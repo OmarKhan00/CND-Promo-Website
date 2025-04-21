@@ -151,19 +151,19 @@ export function Footer2() {
             </div>
           </div> */}
           <div className="flex flex-col items-center text-center">
-                                                            <h1 className="size-15 mb-3  text-lg font-semibold md:text-xl md:mb-4"
-                                                            style={{ fontSize: "30px" }}>Find us on socials</h1>
-                                                            <div className="flex gap-6">
-                                                              <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener noreferrer">
-                                                                <BiLogoInstagram className=" text-french-gray hover:text-accent transition"style={{ fontSize: "60px" }} />
-                                                              </a>
-                                                              <a href="https://www.facebook.com/yourhandle" target="_blank" rel="noopener noreferrer">
-                                                                <BiLogoFacebookCircle className=" text-french-gray hover:text-accent transition" style={{ fontSize: "60px" }}/>
-                                                              </a>
-                                                              <a href="https://www.linkedin.com/company/yourhandle" target="_blank" rel="noopener noreferrer">
-                                                                <BiLogoLinkedinSquare className="text-french-gray hover:text-accent transition" style={{ fontSize: "60px" }}/>
-                                                              </a>
-                                                            </div>
+                                                                              <h1 className="size-15 mb-3  text-lg font-semibold md:text-xl md:mb-4"
+                                                                              style={{ fontSize: "30px" }}>Find us on socials</h1>
+                                                                              <div className="flex gap-6">
+                                                                                <a href="https://www.instagram.com/chargenextdoor?igsh=MWg2enY2YmN5NjYybQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                                                                                  <BiLogoInstagram className=" text-french-gray hover:text-accent transition"style={{ fontSize: "60px" }} />
+                                                                                </a>
+                                                                                <a href="https://m.facebook.com/profile.php?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                                                                                  <BiLogoFacebookCircle className=" text-french-gray hover:text-accent transition" style={{ fontSize: "60px" }}/>
+                                                                                </a>
+                                                                                <a href="https://www.linkedin.com/company/chargenextdoor/" target="_blank" rel="noopener noreferrer">
+                                                                                  <BiLogoLinkedinSquare className="text-french-gray hover:text-accent transition" style={{ fontSize: "60px" }}/>
+                                                                                </a>
+                                                                              </div>
                   </div>
         </div>
         <div className="h-px w-full bg-turquoise" />

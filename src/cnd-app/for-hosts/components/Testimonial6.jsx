@@ -63,7 +63,7 @@ export function Testimonial6() {
                 />
               </div> */}
               <div className="mb-3 md:mb-4">
-                <p className="font-semibold">Kyle Dad</p>
+                <p className="font-semibold">William</p>
                 <p>Private residence (Beta Tester)</p>
               </div>
             </div>
