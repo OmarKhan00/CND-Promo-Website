@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // Add Inter as default sans-serif font
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+      },
       colors: {
         'governor-bay': '#29339B',
         'malachite': '#0CCE6B',

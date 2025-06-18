@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@relume_io/relume-ui";
+// import Button removed: unused
 import React, { useEffect } from "react";
 import MyImage from "../../../assets/Person-Charging-EV-2.jpg";
 
@@ -33,13 +33,13 @@ export function Header1() {
       <div className="container">
         <div className="grid grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16 lg:grid-cols-2 lg:items-center">
           <div>
-            <h1 className="header-heading mb-5 text-6xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              Charge Your EV with Local Hosts Today
+            <h1 className="header-heading mb-6 text-5xl font-extrabold md:mb-8 md:text-6xl lg:text-7xl leading-tight">
+              Power Your Electric Vehicle with Local Hosts
             </h1>
-            <p className="header-description md:text-md text-french-gray">
-              Discover a seamless way to power your electric vehicle by
-              connecting with homeowners who have chargers available. Join our
-              community and never worry about finding a charging station again!
+            <p className="header-description md:text-lg text-gray-200 mb-6 max-w-md">
+              Join the community-driven EV charging network—fast charging locations,
+              transparent pricing, and reliable hosts near you. Charge confidently,
+              wherever you go.
             </p>
             <div className="header-buttons mt-6 flex justify-center gap-4 md:mt-8">
               <a

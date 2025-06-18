@@ -46,11 +46,9 @@ export function Navbar12() {
     >
       <div className="size-full lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
-          <a href="#">
-            <img
-              src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
-              alt="Logo image"
-            />
+          {/* Logo - Increased to h-16 */}
+          <a href="/" className="flex items-center gap-2">
+            <img src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg" alt="ChargeNext Door Logo" className="h-16 w-auto" />
           </a>
           <button
             className="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"
