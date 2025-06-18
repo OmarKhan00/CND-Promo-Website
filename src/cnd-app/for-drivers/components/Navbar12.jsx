@@ -12,9 +12,9 @@ export function Navbar12() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-mineral-green to-governor-bay border-b border-white/10">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          {/* Logo */}
+          {/* Logo - Increased to h-16 */}
           <a href="/" className="flex items-center gap-2">
-            <img src={logo} alt="ChargeNDrive Logo" className="h-10 w-auto" />
+            <img src={logo} alt="ChargeNext Door Logo" className="h-16 w-auto" />
           </a>
           
           {/* Mobile menu button */}

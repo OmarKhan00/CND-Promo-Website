@@ -14,12 +14,12 @@ export function Navbar12() {
         {/* Relative container for centering */}
         <div className="relative flex items-center justify-between">
           
-          {/* Logo */}
+          {/* Logo - Increased from h-14 to h-18 */}
           <a href="/" className="flex items-center gap-2 z-10">
             <img
               src={logo}
               alt="ChargeNext Door Logo"
-              className="h-14 w-auto"
+              className="h-18 w-auto"
             />
           </a>
 
