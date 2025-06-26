@@ -9,7 +9,7 @@ export function Cta19() {
       <div className="container flex flex-col items-center justify-center text-center">
         <div className="w-full max-w-lg">
           <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl text-governor-bay">
-            Unlock Passive Income — Join the Waitlist
+            Unlock Passive Income - Join the Waitlist
           </h2>
           <p className="md:text-md text-black">
             Be among the first to earn by sharing your EV charger with eager drivers. 

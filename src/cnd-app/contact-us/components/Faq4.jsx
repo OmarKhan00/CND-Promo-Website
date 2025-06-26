@@ -178,7 +178,7 @@ const Faq4Defaults = {
           <p><strong>For Users:</strong></p>
           <ul>
             <li>Use the charger responsibly.</li>
-            <li>Avoid causing damage—treat it like any borrowed property.</li>
+            <li>Avoid causing damage - treat it like any borrowed property.</li>
           </ul>
 
           <p><strong>Insurance & Coverage:</strong></p>
@@ -404,6 +404,8 @@ const Faq4Defaults = {
           " You will receive multiple warnings if this action is repeated. After a certain number of occurrences, your account may be suspended. We also send push notifications to remind you to start your charging session.  "
          },
       ],
+    },
+    {
       title: "Account and Billing",
       questions: [
         {
