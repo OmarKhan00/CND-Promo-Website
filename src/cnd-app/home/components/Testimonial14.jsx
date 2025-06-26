@@ -1,18 +1,12 @@
 "use client";
 
-import {
-  Dialog,
-  DialogContent,
-  DialogTrigger,
-  VideoIframe,
-} from "@relume_io/relume-ui";
 import React from "react";
 import { BiSolidStar } from "react-icons/bi";
-import { FaCirclePlay, FaQuoteLeft } from "react-icons/fa6";
+import { FaQuoteLeft } from "react-icons/fa6";
 
 export function Testimonial14() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-governor-bay/90 text-white relative overflow-hidden">
+    <section id="testimonial" className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-emerald-900 px-[5%] py-20 md:py-28 lg:py-32 overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute top-20 left-20 w-64 h-64 bg-white/5 rounded-full blur-3xl"></div>
@@ -35,7 +29,7 @@ export function Testimonial14() {
               <FaQuoteLeft className="absolute -top-6 -left-2 text-white/20 size-12" />
               <blockquote className="text-xl font-bold md:text-2xl text-white relative z-10 pl-4">
                 "CND made it so easy to get started. 
-                I tested it out and made a couple of dollars renting out my EV charger—super simple! 
+                I tested it out and made a couple of dollars renting out my EV charger - super simple! 
                 It’s great connecting with EV drivers who appreciate the convenience of charging at my place."
               </blockquote>
             </div>

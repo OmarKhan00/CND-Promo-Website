@@ -2,6 +2,7 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React, { useEffect } from "react";
+import AppStoreButton from "../../../assets/Buttons/AppStoreButton";
 
 export function Header47() {
   useEffect(() => {
@@ -32,6 +33,15 @@ export function Header47() {
               security, and unparalleled convenience by using a host's charger
               instead of costly public options.
             </p>
+            
+            {/* App Store Download Button */}
+            <div className="mt-6 mb-4">
+              <AppStoreButton 
+                href="https://apps.apple.com/your-app-store-link" 
+                className="inline-block"
+              />
+            </div>
+            
             <div className="header-buttons mt-6 flex justify-center flex-wrap gap-4 md:mt-8">
               <Button 
                 title="Learn More"
