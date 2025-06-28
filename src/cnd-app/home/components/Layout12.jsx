@@ -16,11 +16,12 @@ export function Layout12() {
       <div className="container relative z-10">
         <div className="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
-            <div className="inline-block mb-4 px-4 py-2 bg-governor-bay/15 rounded-full">
-              <span className="flex items-center text-governor-bay font-semibold">
-                <FaBolt className="mr-2" /> Innovative EV Charging
-              </span>
+            <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-emerald-50 to-blue-50 border border-emerald-200/50 rounded-full text-sm font-medium text-emerald-700 shadow-sm animate-fade-in mb-4">
+              <span className="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-pulse"></span>
+              Innovative EV Charging car🔌
             </div>
+            <br />
+            <br />
             <h1 className="mb-5 text-4xl leading-[1.2] font-bold md:mb-6 md:text-5xl lg:text-6xl bg-gradient-to-r from-malachite to-governor-bay bg-clip-text text-transparent">
               Unlock the Power of Convenient EV Charging with Our Innovative
               Platform
@@ -31,34 +32,40 @@ export function Layout12() {
               solutions right in your neighborhood.
             </p>
             <div className="grid grid-cols-1 gap-6 py-2 sm:grid-cols-2">
-              <div className="p-5 rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-french-gray/10">
+              <a 
+                href="/for-hosts"
+                className="block p-5 rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-french-gray/10 group cursor-pointer"
+              >
                 <div className="mb-3 md:mb-4">
-                  <div className="size-12 rounded-full bg-governor-bay/15 flex items-center justify-center">
+                  <div className="size-12 rounded-full bg-governor-bay/15 flex items-center justify-center group-hover:bg-governor-bay/25 transition-colors duration-300">
                     <FaHome className="size-6 text-governor-bay" />
                   </div>
                 </div>
-                <h6 className="mb-3 text-md leading-[1.4] font-bold md:mb-4 md:text-xl text-governor-bay">
+                <h6 className="mb-3 text-md leading-[1.4] font-bold md:mb-4 md:text-xl text-governor-bay group-hover:text-governor-bay/80 transition-colors duration-300">
                   For Hosts
                 </h6>
-                <p className="text-black">
+                <p className="text-black group-hover:text-gray-700 transition-colors duration-300">
                   Earn extra income by sharing your home charger with local EV
                   drivers.
                 </p>
-              </div>
-              <div className="p-5 rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-french-gray/10">
+              </a>
+              <a 
+                href="/for-drivers"
+                className="block p-5 rounded-xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-french-gray/10 group cursor-pointer"
+              >
                 <div className="mb-3 md:mb-4">
-                  <div className="size-12 rounded-full bg-malachite/15 flex items-center justify-center">
+                  <div className="size-12 rounded-full bg-malachite/15 flex items-center justify-center group-hover:bg-malachite/25 transition-colors duration-300">
                     <FaCar className="size-6 text-malachite" />
                   </div>
                 </div>
-                <h6 className="mb-3 text-md leading-[1.4] font-bold md:mb-4 md:text-xl text-governor-bay">
+                <h6 className="mb-3 text-md leading-[1.4] font-bold md:mb-4 md:text-xl text-governor-bay group-hover:text-governor-bay/80 transition-colors duration-300">
                   For EV Owners
                 </h6>
-                <p className="text-black">
+                <p className="text-black group-hover:text-gray-700 transition-colors duration-300">
                   Access reliable charging options conveniently located near
                   you, anytime you need.
                 </p>
-              </div>
+              </a>
             </div>
           </div>
           <div className="relative">

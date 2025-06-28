@@ -86,7 +86,7 @@ export function Testimonial14() {
             </div>
             <div className="mt-8 flex flex-nowrap items-center gap-5 md:mt-10 bg-white/10 backdrop-blur-sm p-4 rounded-xl">
               <div className="size-16 rounded-full bg-white/20 flex items-center justify-center">
-                <span className="text-xl font-bold text-white">KD</span>
+                <span className="text-xl font-bold text-white">W</span>
               </div>
               <div>
                 <p className="font-semibold text-white">William </p>

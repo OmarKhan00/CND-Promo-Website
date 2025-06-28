@@ -16,14 +16,6 @@ export function Cta1() {
             find affordable home chargers near you and charge your EV with ease and confidence
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-4 md:mt-8">
-           <Button title="Sign Up"className="pulse bg-accent hover:bg-malachite text-governor-bay font-bold rounded-lg transition-all duration-300 hover:shadow-lg"
-           onClick={() => window.open("https://mailchi.mp/d3662d8474be/chargenextdoor", "_blank")}
-           >Joint the Waitlist</Button>
-                       <Button title="Learn More" variant="secondary" className="bg-governor-bay hover:bg-malachite text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg "
-                       onClick={() => window.location.href = "/contact-us"}
-                       >
-                         Learn More
-                       </Button>
           </div>
         </div>
       </div>
