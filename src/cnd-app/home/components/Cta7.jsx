@@ -40,7 +40,7 @@ export function Cta7() {
             <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-emerald-100 to-blue-100 border border-emerald-200/50 rounded-full text-sm font-medium text-emerald-700 shadow-sm">
                 <span className="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-pulse"></span>
-                Ready to Get Started?
+                Early Launch - Join Now!
               </div>
               
               <h2 className="cta-animate text-4xl leading-tight font-bold md:text-5xl lg:text-6xl bg-gradient-to-r from-slate-900 via-emerald-700 to-blue-700 bg-clip-text text-transparent">
@@ -48,8 +48,8 @@ export function Cta7() {
               </h2>
               
               <p className="cta-animate text-lg text-slate-600 max-w-xl leading-relaxed">
-                Join our community of hosts and EV owners today! 
-                <span className="text-emerald-600 font-medium"> Start your journey towards sustainable charging.</span>
+                Be among the first to experience our community-driven EV charging network! 
+                <span className="text-emerald-600 font-medium"> Join our early launch and help shape the future of EV charging.</span>
               </p>
             </div>
             

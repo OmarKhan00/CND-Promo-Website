@@ -42,7 +42,7 @@ export function Header1() {
           <div className="space-y-8">
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-emerald-50 to-blue-50 border border-emerald-200/50 rounded-full text-sm font-medium text-emerald-700 shadow-sm animate-fade-in">
               <span className="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-pulse"></span>
-              Launching Soon - Join the Waitlist
+              Officially Launched 🥳
             </div>
             
             <h1 className="header-heading text-5xl font-bold md:text-6xl lg:text-7xl leading-tight bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-700 bg-clip-text text-transparent animate-slide-up">
@@ -51,9 +51,9 @@ export function Header1() {
             </h1>
             
             <p className="header-description text-xl text-slate-600 max-w-xl leading-relaxed animate-fade-in-delay">
-              Join the community-driven EV charging network. Fast charging locations,
-              transparent pricing, and reliable hosts near you. 
-              <span className="text-emerald-600 font-medium">Charge confidently, wherever you go.</span>
+              Experience our early launch community-driven EV charging network. Discover fast charging locations,
+              transparent pricing, and trusted hosts near you. 
+              <span className="text-emerald-600 font-medium"> Be part of the charging revolution from day one.</span>
             </p>
             
             <div className="header-buttons flex flex-col items-center gap-4 md:flex-row md:justify-center md:gap-6 animate-fade-in-delay-2">
@@ -68,16 +68,16 @@ export function Header1() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex items-center gap-8 pt-8 animate-fade-in-delay-3">
+            <div className="flex items-center justify-center gap-8 pt-8 animate-fade-in-delay-3">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></div>
                 <span className="text-sm text-slate-600 font-medium">Secure & Trusted</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center justify-center gap-2">
                 <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse delay-300"></div>
                 <span className="text-sm text-slate-600 font-medium">24/7 Support</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center justify-center gap-2">
                 <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse delay-500"></div>
                 <span className="text-sm text-slate-600 font-medium">Easy Setup</span>
               </div>

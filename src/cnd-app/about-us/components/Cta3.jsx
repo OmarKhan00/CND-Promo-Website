@@ -19,7 +19,7 @@ export function Cta3() {
           <div className="mt-6 flex flex-wrap justify-center gap-4 md:mt-8">
             <Button title="Sign Up"className="pulse bg-accent hover:bg-malachite text-governor-bay font-bold rounded-lg transition-all duration-300 hover:shadow-lg"
                         onClick={() => window.open("https://mailchi.mp/d3662d8474be/chargenextdoor", "_blank")}
-                        >Joint the Waitlist</Button>
+                        >Join the Waitlist</Button>
             {/* <Button title="Learn More" variant="secondary-alt">
               Learn More
             </Button> */}

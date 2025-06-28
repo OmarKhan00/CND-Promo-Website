@@ -17,11 +17,12 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navbar12 />
       <Header1 />
-      <Layout239 />
+      
       <Layout12 />
-      <Layout246 />
-      <Layout26 />
+      {/* <Layout246 /> */}
+      {/* <Layout26 /> */}
       <Testimonial14 />
+      <Layout239 />
       <Cta7 />
       <Cta20 />
       <Footer2 />
