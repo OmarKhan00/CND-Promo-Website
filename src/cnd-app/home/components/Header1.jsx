@@ -87,7 +87,7 @@ export function Header1() {
               className="header-image relative w-full rounded-2xl object-cover shadow-2xl transform hover:scale-105 transition-all duration-700 hover:rotate-1"
               alt="Team working together"
             />
-            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-xl ">
+            <div className="absolute -bottom-6 -right-6 w-10 h-10 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-xl ">
               <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M11.5 2v7H9L13 15v-7h2.5L11.5 2z"/>
                 <path d="M3 12h3v2H3v-2zm15 0h3v2h-3v-2z"/>
