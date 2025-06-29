@@ -47,17 +47,15 @@ export function Section2() {
               </div>
               
               {/* Enhanced Floating Glassmorphism Elements */}
-              <div className="absolute -top-16 -left-16 w-16 h-16 bg-gradient-to-br from-emerald-400/15 to-blue-400/15 backdrop-blur-md rounded-2xl border border-white/20 flex items-center justify-center shadow-lg hover:from-emerald-400/25 hover:to-blue-400/25 hover:scale-105 transition-all duration-700 animate-pulse" style={{animationDuration: '10s'}}>
+              {/* <div className="absolute -top-16 -left-16 w-16 h-16 bg-gradient-to-br from-emerald-400/15 to-blue-400/15 backdrop-blur-md rounded-2xl border border-white/20 flex items-center justify-center shadow-lg hover:from-emerald-400/25 hover:to-blue-400/25 hover:scale-105 transition-all duration-700 animate-pulse" style={{animationDuration: '10s'}}>
                 <span className="text-2xl opacity-80">⚡</span>
               </div>
               <div className="absolute -bottom-16 -right-16 w-14 h-14 bg-gradient-to-br from-blue-400/15 to-purple-400/15 backdrop-blur-md rounded-2xl border border-white/20 flex items-center justify-center shadow-lg hover:from-blue-400/25 hover:to-purple-400/25 hover:scale-105 transition-all duration-700 animate-pulse" style={{animationDuration: '10s'}}>
                 <span className="text-xl opacity-80">🔌</span>
               </div>
-              
-              {/* Additional subtle floating element */}
               <div className="absolute top-20 -right-20 w-12 h-12 bg-gradient-to-br from-emerald-300/10 to-blue-300/10 backdrop-blur-sm rounded-xl border border-white/15 flex items-center justify-center shadow-md hover:from-emerald-300/20 hover:to-blue-300/20 hover:scale-105 transition-all duration-700 animate-pulse" style={{animationDuration: '10s'}}>
                 <span className="text-lg opacity-70">📱</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
