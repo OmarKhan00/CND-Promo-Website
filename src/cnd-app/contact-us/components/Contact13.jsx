@@ -12,44 +12,44 @@ export function Contact13() {
     {/* <section className=""> */}
       <div className="container">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
-          <div>
-            <h2 className="mb-6 text-4xl font-bold md:text-5xl lg:text-6xl">
+          <div className="flex flex-col justify-center h-full text-left">
+            <h2 className="mb-4 text-4xl font-bold md:text-5xl lg:text-6xl">
               Get in <span className="text-accent">Touch</span>
             </h2>
-            <p className="mb-8 text-french-gray">
+            <p className="mb-8 text-french-gray text-base md:text-lg">
               We'd love to hear from you. Fill out the form and our team will get back to you as soon as possible.
             </p>
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="rounded-full bg-accent/20 p-3">
-                  <FaMapMarkerAlt className="text-accent" />
+            <div className="space-y-4">
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
+                <div className="rounded-full bg-accent/20 p-3 flex items-center justify-center">
+                  <FaMapMarkerAlt className="text-accent text-xl" />
                 </div>
                 <div>
-                  <h3 className="mb-1 font-bold">Our Location</h3>
-                  <p className="text-sm text-french-gray">123 EV Street, Green City, EC 12345</p>
+                  <h3 className="mb-0.5 font-semibold text-white">Location</h3>
+                  <p className="text-sm text-french-gray">Melbourne (Floating Office)</p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="rounded-full bg-accent/20 p-3">
-                  <FaPhone className="text-accent" />
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
+                <div className="rounded-full bg-accent/20 p-3 flex items-center justify-center">
+                  <FaPhone className="text-accent text-xl" />
                 </div>
                 <div>
-                  <h3 className="mb-1 font-bold">Phone Number</h3>
-                  <p className="text-sm text-french-gray">+1 (555) 123-4567</p>
+                  <h3 className="mb-0.5 font-semibold text-white">Phone</h3>
+                  <p className="text-sm text-french-gray">(Coming Soon)</p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <div className="rounded-full bg-accent/20 p-3">
-                  <FaEnvelope className="text-accent" />
+              <div className="flex items-center gap-4 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
+                <div className="rounded-full bg-accent/20 p-3 flex items-center justify-center">
+                  <FaEnvelope className="text-accent text-xl" />
                 </div>
                 <div>
-                  <h3 className="mb-1 font-bold">Email Address</h3>
+                  <h3 className="mb-0.5 font-semibold text-white">Email</h3>
                   <p className="text-sm text-french-gray">contact@chargenextdoor.com</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="rounded-xl bg-white/10 backdrop-blur-sm p-8 shadow-xl">
+          <div className="rounded-xl bg-white/10 backdrop-blur-sm p-8 shadow-xl flex flex-col justify-center">
             <form className="space-y-6">
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div>
@@ -97,9 +97,9 @@ export function Contact13() {
                   placeholder="How can we help you?"
                 ></textarea>
               </div>
-              <Button 
+              <Button
                 title="Send Message"
-                className="w-full bg-accent hover:bg-malachite text-mineral-green font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 btn-pulse"
+                className="w-full bg-accent/90 hover:bg-accent text-white font-bold rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 backdrop-blur-md border border-white/20 btn-pulse"
               >
                 Send Message
               </Button>
