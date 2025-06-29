@@ -3,7 +3,7 @@
 import React from "react";
 import { Navbar12 } from "./components/Navbar12";
 import { Header1 } from "./components/Header1";
-import { Section2 } from "./components/Section2";
+import { Section2 } from "./components/section2";
 import { Layout239 } from "./components/Layout239";
 import { Layout12 } from "./components/Layout12";
 import { Layout246 } from "./components/Layout246";
