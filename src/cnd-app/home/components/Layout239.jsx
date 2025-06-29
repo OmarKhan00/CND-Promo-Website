@@ -133,17 +133,11 @@ export function Layout239() {
             </div>
             
             {/* Enhanced Floating Glassmorphism Elements */}
-            <div className="absolute -top-6 -left-6 w-20 h-20 bg-gradient-to-r from-emerald-400/20 to-blue-400/20 backdrop-blur-md rounded-full border border-white/20 flex items-center justify-center shadow-xl animate-bounce">
+            <div className="absolute -top-6 -left-6 w-20 h-20 bg-gradient-to-r from-emerald-400/20 to-blue-400/20 backdrop-blur-md rounded-full border border-white/20 flex items-center justify-center shadow-xl">
               <span className="text-3xl">⚡</span>
             </div>
-            <div className="absolute -bottom-6 -right-6 w-16 h-16 bg-gradient-to-r from-blue-400/20 to-purple-400/20 backdrop-blur-md rounded-full border border-white/20 flex items-center justify-center shadow-xl animate-pulse">
+            <div className="absolute -bottom-6 -right-6 w-16 h-16 bg-gradient-to-r from-blue-400/20 to-purple-400/20 backdrop-blur-md rounded-full border border-white/20 flex items-center justify-center shadow-xl">
               <span className="text-2xl">🔌</span>
-            </div>
-            <div className="absolute top-1/3 -right-8 w-12 h-12 bg-gradient-to-r from-purple-400/20 to-pink-400/20 backdrop-blur-md rounded-full border border-white/20 flex items-center justify-center shadow-lg animate-ping">
-              <span className="text-lg">🚀</span>
-            </div>
-            <div className="absolute bottom-1/3 -left-8 w-10 h-10 bg-gradient-to-r from-yellow-400/20 to-orange-400/20 backdrop-blur-md rounded-full border border-white/20 flex items-center justify-center shadow-lg animate-bounce delay-1000">
-              <span className="text-sm">�</span>
             </div>
           </div>
         </div>

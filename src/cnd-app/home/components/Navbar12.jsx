@@ -1,125 +1,141 @@
 "use client";
 
-import React, { useState } from "react";
-import { RxChevronDown } from "react-icons/rx";
+import React, { useState, useEffect } from "react";
 import logo from "../../../assets/CND_Logo.png";
 
 export function Navbar12() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-mineral-green to-governor-bay border-b border-white/10">
-      <div className="container mx-auto px-4 py-4">
-        {/* Relative container for centering */}
-        <div className="relative flex items-center justify-between">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      isScrolled 
+        ? 'bg-gradient-to-r from-slate-900/95 to-blue-900/95 backdrop-blur-xl border-b border-white/20 shadow-lg' 
+        : 'bg-gradient-to-r from-slate-900/90 to-blue-900/90 backdrop-blur-md'
+    }`}>
+      <div className="container mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
           
-          {/* Logo - Increased from h-14 to h-18 */}
-          <a href="/" className="flex items-center gap-2 z-10">
-            <img
-              src={logo}
-              alt="ChargeNext Door Logo"
-              className="h-18 w-auto"
-            />
+          {/* Logo with glassmorphism effect */}
+          <a href="/" className="group flex items-center gap-3 z-10">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-purple-400/20 rounded-full blur-sm group-hover:blur-md transition-all duration-300"></div>
+              <img
+                src={logo}
+                alt="ChargeNext Door Logo"
+                className="relative h-12 w-auto transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
+            <span className="text-white font-bold text-xl bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent hidden sm:block">
+              ChargeNextDoor
+            </span>
           </a>
 
-          {/* Brand name centered absolutely */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 z-0">
-            <span className="text-white font-semibold text-lg lg:text-xl whitespace-nowrap">
-              ChargeNextDoor
-              
-            </span>
+          {/* Desktop Navigation - Glassmorphism Pills */}
+          <nav className="hidden lg:flex">
+            <div className="flex items-center gap-2 bg-white/20 backdrop-blur-md rounded-full p-1 border border-white/30">
+              <a
+                href="/"
+                className="px-6 py-2 rounded-full text-white hover:bg-white/30 hover:text-white transition-all duration-300 text-sm font-medium hover:shadow-lg"
+              >
+                Home
+              </a>
+              <a
+                href="/about-us"
+                className="px-6 py-2 rounded-full text-white/90 hover:bg-white/30 hover:text-white transition-all duration-300 text-sm font-medium hover:shadow-lg"
+              >
+                About
+              </a>
+              <a
+                href="/contact-us"
+                className="px-6 py-2 rounded-full text-white/90 hover:bg-white/30 hover:text-white transition-all duration-300 text-sm font-medium hover:shadow-lg"
+              >
+                Contact
+              </a>
+            </div>
+          </nav>
+
+          {/* CTA Button - Glassmorphism */}
+          <div className="hidden lg:block">
+            <a
+              href="https://mailchi.mp/d3662d8474be/chargenextdoor"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative overflow-hidden px-6 py-2 bg-gradient-to-r from-emerald-500/30 to-blue-500/30 backdrop-blur-md border border-emerald-300/50 rounded-full text-white font-medium transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-emerald-400/70"
+            >
+              <span className="relative z-10">Join Early Launch</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </a>
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile menu button - Animated */}
           <button
-            className="lg:hidden text-white z-10"
+            className="lg:hidden relative w-8 h-8 z-10"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d={
-                  isMobileMenuOpen
-                    ? "M6 18L18 6M6 6l12 12"
-                    : "M4 6h16M4 12h16M4 18h16"
-                }
-              />
-            </svg>
+            <div className="absolute inset-0 bg-white/20 backdrop-blur-md rounded-lg border border-white/30"></div>
+            <div className="relative flex flex-col items-center justify-center h-full">
+              <span className={`block w-4 h-0.5 bg-white transition-all duration-300 ${
+                isMobileMenuOpen ? 'rotate-45 translate-y-0.5' : '-translate-y-1'
+              }`}></span>
+              <span className={`block w-4 h-0.5 bg-white transition-all duration-300 ${
+                isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
+              }`}></span>
+              <span className={`block w-4 h-0.5 bg-white transition-all duration-300 ${
+                isMobileMenuOpen ? '-rotate-45 -translate-y-0.5' : 'translate-y-1'
+              }`}></span>
+            </div>
           </button>
 
-          {/* Desktop Navigation */}
-          <nav
-            className={`lg:flex ${
-              isMobileMenuOpen
-                ? "block absolute top-16 left-0 right-0 bg-mineral-green p-4 z-50"
-                : "hidden"
-            } lg:static lg:bg-transparent z-10`}
-          >
-            <ul className="flex flex-col lg:flex-row gap-4 lg:items-center">
-              <li>
+          {/* Mobile Navigation - Glassmorphism Overlay */}
+          <div className={`lg:hidden fixed inset-0 z-40 transition-all duration-500 ${
+            isMobileMenuOpen 
+              ? 'opacity-100 pointer-events-auto' 
+              : 'opacity-0 pointer-events-none'
+          }`}>
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 to-blue-900/95 backdrop-blur-xl">
+              <nav className="flex flex-col items-center justify-center h-full space-y-8">
                 <a
                   href="/"
-                  className="text-white hover:text-accent transition-colors duration-300 block py-2"
+                  className="text-white text-2xl font-medium hover:text-emerald-300 transition-all duration-300 hover:scale-105"
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Home
                 </a>
-              </li>
-              <li>
                 <a
                   href="/about-us"
-                  className="text-white hover:text-accent transition-colors duration-300 block py-2"
+                  className="text-white text-2xl font-medium hover:text-emerald-300 transition-all duration-300 hover:scale-105"
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  About Us
+                  About
                 </a>
-              </li>
-              <li className="relative">
-                <div className="relative">
-                  <button
-                    className="text-white hover:text-accent transition-colors duration-300 flex items-center gap-1 py-2"
-                    onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                  >
-                    Services
-                    <RxChevronDown className="ml-1 w-4 h-4" />
-                  </button>
-                  <div
-                    className={`${
-                      isDropdownOpen ? "block" : "hidden"
-                    } lg:absolute lg:top-full lg:left-0 bg-mineral-green p-4 rounded-lg shadow-lg mt-2 z-50`}
-                  >
-                    <a
-                      href="/for-hosts"
-                      className="text-white hover:text-accent transition-colors duration-300 block py-2 whitespace-nowrap"
-                    >
-                      For Hosts
-                    </a>
-                    <a
-                      href="/for-drivers"
-                      className="text-white hover:text-accent transition-colors duration-300 block py-2 whitespace-nowrap"
-                    >
-                      For Drivers
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li>
                 <a
                   href="/contact-us"
-                  className="text-white hover:text-accent transition-colors duration-300 block py-2"
+                  className="text-white text-2xl font-medium hover:text-emerald-300 transition-all duration-300 hover:scale-105"
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Contact Us
+                  Contact
                 </a>
-              </li>
-            </ul>
-          </nav>
+                <a
+                  href="https://mailchi.mp/d3662d8474be/chargenextdoor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-8 px-8 py-3 bg-gradient-to-r from-emerald-500/40 to-blue-500/40 backdrop-blur-md border border-emerald-300/60 rounded-full text-white font-medium transition-all duration-300 hover:scale-105"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Join Early Launch
+                </a>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
     </header>

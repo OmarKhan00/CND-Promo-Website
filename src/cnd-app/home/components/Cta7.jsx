@@ -67,31 +67,32 @@ export function Cta7() {
           </div>
           
           {/* Additional trust elements */}
-          <div className="mt-12 pt-8 border-t border-slate-200/50">
-            <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-slate-500">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-emerald-500 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+          <div className="mt-16 pt-10 border-t border-slate-200/30">
+            {/* Centered on all screen sizes with improved spacing */}
+            <div className="flex flex-wrap items-center justify-center gap-6 md:gap-12 text-sm">
+              <div className="flex items-center gap-3 px-4 py-3 bg-white/40 backdrop-blur-sm rounded-2xl border border-emerald-100/50 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+                <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="font-medium">Trusted by 1000+ Users</span>
+                <span className="font-semibold text-slate-700">Secure & Verified</span>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-500 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className="flex items-center gap-3 px-4 py-3 bg-white/40 backdrop-blur-sm rounded-2xl border border-blue-100/50 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center shadow-lg">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <span className="font-medium">Secure & Verified</span>
+                <span className="font-semibold text-slate-700">Easiest UI Ever</span>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div className="flex items-center gap-3 px-4 py-3 bg-white/40 backdrop-blur-sm rounded-2xl border border-emerald-100/50 shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105">
+                <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-xl flex items-center justify-center shadow-lg">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="font-medium">Fast Charging</span>
+                <span className="font-semibold text-slate-700">Fuel Passive Income</span>
               </div>
             </div>
           </div>

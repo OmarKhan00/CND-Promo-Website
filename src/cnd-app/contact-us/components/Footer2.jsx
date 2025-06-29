@@ -41,7 +41,7 @@ export function Footer2() {
             >
               <div className="flex items-center gap-2">
                 <BiCar className="text-accent text-3xl" />
-                <span className="text-xl font-bold">ChargeNextDoor</span>
+                <span className="text-xl font-bold">CND</span>
               </div>
             </a>
             <div className="flex flex-col items-start justify-start">
@@ -57,7 +57,7 @@ export function Footer2() {
                     About Us
                   </a>
                 </li>
-                <li className="py-2 text-sm">
+                {/* <li className="py-2 text-sm">
                   <a href="/for-hosts" className="flex items-center gap-3 hover:text-accent transition-colors">
                     For Hosts
                   </a>
@@ -66,7 +66,7 @@ export function Footer2() {
                   <a href="/for-drivers" className="flex items-center gap-3 hover:text-accent transition-colors">
                     For Drivers
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="flex flex-col items-start justify-start">
@@ -171,7 +171,7 @@ export function Footer2() {
           <div className="flex flex-col-reverse items-start md:flex-row md:gap-6 lg:items-center">
             <div className="grid grid-flow-row grid-cols-[max-content] justify-center gap-y-4 md:grid-flow-col md:justify-center md:gap-x-6 md:gap-y-0 lg:text-left">
               <p className="mt-8 md:mt-0">
-                © 2024 ChargeNextDoor. All rights reserved.
+                © 2025 ChargeNextDoor. All rights reserved.
               </p>
             </div>
           </div>

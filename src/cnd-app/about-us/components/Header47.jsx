@@ -2,7 +2,7 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React, { useEffect } from "react";
-import MyImage from '../../../assets/About us page.png';
+import MyImage from '../../../assets/Person-Charging-EV-2.jpg';
 
 export function Header47() {
   useEffect(() => {
@@ -50,7 +50,7 @@ export function Header47() {
             <img
               src={MyImage}
               className="header-image w-full rounded-xl object-cover shadow-xl floating"
-              alt="Team working together"
+              alt="Electric vehicle charging"
             />
           </div>
         </div>
