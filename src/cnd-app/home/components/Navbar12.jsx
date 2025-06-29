@@ -101,7 +101,7 @@ export function Navbar12() {
               ? 'opacity-100 pointer-events-auto' 
               : 'opacity-0 pointer-events-none'
           }`} style={{height: '100vh', minHeight: '-webkit-fill-available'}}>
-            <div className="absolute inset-0 bg-white/10 bg-gradient-to-br from-slate-200/20 via-blue-200/10 to-blue-400/10 backdrop-blur-[18px] shadow-2xl border border-white/30 flex flex-col">
+          <div className="absolute inset-0 bg-white/60 bg-gradient-to-br from-slate-300/70 via-blue-200/40 to-blue-400/30 backdrop-blur-xl shadow-2xl border border-white/30 flex flex-col">
               {/* Close (X) Button */}
               <button
                 className="absolute top-4 right-4 z-50 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 backdrop-blur-lg border border-white/40 text-slate-700 hover:bg-white/50 transition-all duration-200 shadow-md"
@@ -116,21 +116,21 @@ export function Navbar12() {
               <nav className="flex flex-col items-center justify-center flex-1 space-y-8">
                 <a
                   href="/"
-                  className="text-slate-900 text-2xl font-semibold hover:text-emerald-500 transition-all duration-300 hover:scale-105 drop-shadow"
+                  className="text-slate-800 text-2xl font-semibold hover:text-emerald-600 transition-all duration-300 hover:scale-105 drop-shadow"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Home
                 </a>
                 <a
                   href="/about-us"
-                  className="text-slate-900 text-2xl font-semibold hover:text-emerald-500 transition-all duration-300 hover:scale-105 drop-shadow"
+                  className="text-slate-800 text-2xl font-semibold hover:text-emerald-600 transition-all duration-300 hover:scale-105 drop-shadow"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   About
                 </a>
                 <a
                   href="/contact-us"
-                  className="text-slate-900 text-2xl font-semibold hover:text-emerald-500 transition-all duration-300 hover:scale-105 drop-shadow"
+                  className="text-slate-800 text-2xl font-semibold hover:text-emerald-600 transition-all duration-300 hover:scale-105 drop-shadow"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Contact
@@ -139,7 +139,7 @@ export function Navbar12() {
                   href="https://mailchi.mp/d3662d8474be/chargenextdoor"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-8 px-8 py-3 bg-gradient-to-r from-emerald-300/30 to-blue-300/30 backdrop-blur-lg border border-emerald-200/60 rounded-full text-slate-900 font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
+                  className="mt-8 px-8 py-3 bg-gradient-to-r from-emerald-400/60 to-blue-400/50 backdrop-blur-lg border border-emerald-200/80 rounded-full text-slate-900 font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Join Early Launch
