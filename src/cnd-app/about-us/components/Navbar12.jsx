@@ -40,8 +40,9 @@ export function Navbar12() {
                   About Us
                 </a>
               </li>
-              <li className="relative">
-                {/* Services dropdown */}
+              {/* Services dropdown */}
+              {/* <li className="relative">
+
                 <div className="relative">
                   <button 
                     className="text-white hover:text-accent transition-colors duration-300 flex items-center gap-1 py-2"
@@ -50,8 +51,6 @@ export function Navbar12() {
                     Services
                     <RxChevronDown className="ml-1 w-4 h-4" />
                   </button>
-                  
-                  {/* Dropdown menu */}
                   <div 
                     className={`${isDropdownOpen ? 'block' : 'hidden'} lg:absolute lg:top-full lg:left-0 bg-mineral-green p-4 rounded-lg shadow-lg mt-2 z-50`}
                   >
@@ -63,7 +62,7 @@ export function Navbar12() {
                     </a>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li>
                 <a href="/contact-us" className="text-white hover:text-accent transition-colors duration-300 block py-2">
                   Contact Us

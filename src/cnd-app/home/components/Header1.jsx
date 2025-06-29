@@ -2,7 +2,7 @@
 
 // import Button removed: unused
 import React, { useEffect } from "react";
-import MyImage from "../../../assets/Person-Charging-EV-2.jpg";
+import MyImage from "../../../assets/About us page.png";
 import AppStoreButton from '../../../assets/Buttons/AppStoreButton';
 import PlayStoreButton from '../../../assets/Buttons/PlayStoreButton';
 
@@ -21,14 +21,10 @@ export function Header1() {
     if (image) image.classList.add("slide-in-right");
   }, []);
 
-  
-
-  
-
   return (
     <section
       id="chargeNDrive"
-      className="relative min-h-screen bg-gradient-to-br from-white via-slate-50 to-blue-50 px-[5%] py-16 md:py-24 lg:py-28 text-slate-900 pt-20 overflow-hidden"
+      className="relative bg-gradient-to-br from-white via-slate-50 to-blue-50 px-[5%] py-16 md:py-24 lg:py-28 text-slate-900 pt-20 overflow-hidden"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -89,9 +85,9 @@ export function Header1() {
             <img
               src={MyImage}
               className="header-image relative w-full rounded-2xl object-cover shadow-2xl transform hover:scale-105 transition-all duration-700 hover:rotate-1"
-              alt="Electric vehicle charging"
+              alt="Team working together"
             />
-            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-xl animate-bounce">
+            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-xl ">
               <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M11.5 2v7H9L13 15v-7h2.5L11.5 2z"/>
                 <path d="M3 12h3v2H3v-2zm15 0h3v2h-3v-2z"/>

@@ -13,11 +13,12 @@ export default function ContactUs() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar12 />
+      <br />
       {/* <Header47 /> */}
-      {/* <Contact13 /> */}
       {/* <Contact2 /> */}
       {/* <Contact14 /> */}
       <Faq4 />
+      <Contact13 />
       <Footer2 />
     </div>
   );

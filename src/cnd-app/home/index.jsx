@@ -3,6 +3,7 @@
 import React from "react";
 import { Navbar12 } from "./components/Navbar12";
 import { Header1 } from "./components/Header1";
+import { Section2 } from "./components/Section2";
 import { Layout239 } from "./components/Layout239";
 import { Layout12 } from "./components/Layout12";
 import { Layout246 } from "./components/Layout246";
@@ -16,13 +17,14 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar12 />
+      <br/>
       <Header1 />
-      
-      <Layout12 />
+      {/* <Layout12 /> */}
+      <Section2 />
       {/* <Layout246 /> */}
       {/* <Layout26 /> */}
       <Testimonial14 />
-      <Layout239 />
+      {/* <Layout239 /> */}
       <Cta7 />
       <Cta20 />
       <Footer2 />

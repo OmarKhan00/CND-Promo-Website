@@ -14,12 +14,13 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar12 />
+      <br />
       <Header47 />
-      <Layout41 />
+      {/* <Layout41 /> */}
       {/* <Layout369 /> */}
       <Team8 />
-      <Gallery8 />
       <Cta3 />
+      <Gallery8 />
       <Footer2 />
     </div>
   );

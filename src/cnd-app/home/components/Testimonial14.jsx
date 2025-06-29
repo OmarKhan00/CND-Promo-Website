@@ -28,47 +28,30 @@ export function Testimonial14() {
             <div className="relative">
               <FaQuoteLeft className="absolute -top-6 -left-2 text-white/20 size-12" />
               <blockquote className="text-xl font-bold md:text-2xl text-white relative z-10 pl-4">
-                "CND made it so easy to get started. 
+                CND made it so easy to get started. 
                 I tested it out and made a couple of dollars renting out my EV charger - super simple! 
-                It’s great connecting with EV drivers who appreciate the convenience of charging at my place."
+                It’s great connecting with EV drivers who appreciate the convenience of charging at my place.
               </blockquote>
             </div>
 
-
-
             <div className="mt-8 flex justify-center md:mt-10">
               <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm p-4 rounded-xl max-w-fit">
-                <div className="size-16 rounded-full bg-white/20 flex items-center justify-center">
+                <div className="size-16 rounded-full bg-gradient-to-br from-blue-400 to-emerald-500 flex items-center justify-center shadow-lg">
+                  {/* <img 
+                    src="https://api.dicebear.com/7.x/avataaars/svg?seed=James&backgroundColor=3b82f6&clothesColor=262e33&eyebrowType=default&eyeType=happy&facialHairType=light&hairColor=4a5568&hatColor=262e33&mouthType=smile&skinColor=f3a683&topType=shortHairShortWaved"
+                    alt="James Avatar"
+                    className="w-12 h-12 rounded-full"
+                  /> */}
                   <span className="text-xl font-bold text-white">J</span>
                 </div>
                 <div>
-                <p className="font-semibold text-white">James</p>
+                <p className="font-semibold text-white">James S.</p>
                 <p className="text-white/70">Host, Private Residence</p>
                </div>
               </div>
             </div>
-
-            
-            
-              {/* Commented out the video part as it's not relvetant no  */}
-              {/* <DialogTrigger className="relative flex w-full items-center justify-center overflow-hidden rounded-xl group">
-                <img
-                  src="https://images.unsplash.com/photo-1593941707882-a56bbc8df48c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                  alt="Host testimonial"
-                  className="size-full object-cover rounded-xl shadow-xl group-hover:scale-105 transition-transform duration-500"
-                />
-                <span className="absolute inset-0 z-10 bg-gradient-to-t from-black/80 to-black/50 rounded-xl"></span>
-                <FaCirclePlay className="absolute z-20 size-16 text-malachite group-hover:text-white transition-colors duration-300 group-hover:scale-110 transform-gpu" />
-                <div className="absolute bottom-4 left-4 z-20 text-white">
-                  <p className="text-sm font-semibold">Watch Kyle's Dad's Story</p>
-                  <p className="text-xs text-white/70">2:45 min</p>
-                </div>
-              </DialogTrigger> */}
-              {/* <DialogContent>
-                <VideoIframe video="https://www.youtube.com/embed/oP3c1h8v2ZQ" />
-              </DialogContent> */}
-            {/* </Dialog> */}
           </div>
+
           <div className="flex flex-col items-start">
             <div className="mb-6 flex md:mb-8">
               <BiSolidStar className="size-6 text-malachite" />
@@ -77,20 +60,32 @@ export function Testimonial14() {
               <BiSolidStar className="size-6 text-malachite" />
               <BiSolidStar className="size-6 text-malachite" />
             </div>
+
             <div className="relative">
               <FaQuoteLeft className="absolute -top-6 -left-2 text-white/20 size-12" />
               <blockquote className="text-xl font-bold md:text-2xl text-white relative z-10 pl-4">
-                "Hosting has never been easier! I've connected with great EV
-                owners who appreciate the convenience of charging at my home."
+                Hosting has never been easier! I've connected with great EV
+                owners who appreciate the convenience of charging at my home.
               </blockquote>
             </div>
-            <div className="mt-8 flex flex-nowrap items-center gap-5 md:mt-10 bg-white/10 backdrop-blur-sm p-4 rounded-xl">
-              <div className="size-16 rounded-full bg-white/20 flex items-center justify-center">
-                <span className="text-xl font-bold text-white">W</span>
-              </div>
-              <div>
-                <p className="font-semibold text-white">William </p>
-                <p className="text-white/70">Host, Private Residence</p>
+            <div className="mt-8 flex justify-center w-full md:mt-10">
+              <div className="flex items-center gap-4 bg-white/10 backdrop-blur-sm p-4 rounded-xl max-w-fit">
+                <div className="size-16 rounded-full bg-gradient-to-br from-purple-400 to-blue-500 flex items-center justify-center shadow-lg">
+                  {/* <img 
+                    src="https://api.dicebear.com/9.x/micah/svg?seed=Aidan&eyeShadowColor[]&hairColor=f4d150&mouth=laughing,smile,smirk"
+                    alt="William Avatar"
+                    className="w-12 h-12 rounded-full"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
+                  /> */}
+                  <span className="text-xl font-bold text-white">W</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-white">William W.</p>
+                  <p className="text-white/70">Host, Private Residence</p>
+                </div>
               </div>
             </div>
           </div>
