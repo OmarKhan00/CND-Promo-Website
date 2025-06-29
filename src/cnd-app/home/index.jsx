@@ -18,6 +18,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navbar12 />
       <br/>
+      <br/>
       <Header1 />
       {/* <Layout12 /> */}
       <Section2 />
