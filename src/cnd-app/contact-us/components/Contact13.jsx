@@ -2,9 +2,7 @@
 
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
-import { BiEnvelope, BiMap, BiPhone } from "react-icons/bi";
-import { RxChevronRight } from "react-icons/rx";
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 export function Contact13() {
   return (
@@ -12,44 +10,26 @@ export function Contact13() {
     {/* <section className=""> */}
       <div className="container">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
-          <div className="flex flex-col justify-center h-full text-left">
-            <h2 className="mb-4 text-4xl font-bold md:text-5xl lg:text-6xl">
+          <div>
+            <h2 className="mb-6 text-4xl font-bold md:text-5xl lg:text-6xl">
               Get in <span className="text-accent">Touch</span>
             </h2>
-            <p className="mb-8 text-french-gray text-base md:text-lg">
+            <p className="mb-8 text-french-gray">
               We'd love to hear from you. Fill out the form and our team will get back to you as soon as possible.
             </p>
-            <div className="space-y-4">
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
-                <div className="rounded-full bg-accent/20 p-3 flex items-center justify-center">
-                  <FaMapMarkerAlt className="text-accent text-xl" />
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="rounded-full bg-accent/20 p-3">
+                  <FaEnvelope className="text-accent" />
                 </div>
                 <div>
-                  <h3 className="mb-0.5 font-semibold text-white">Location</h3>
-                  <p className="text-sm text-french-gray">Melbourne (Floating Office)</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
-                <div className="rounded-full bg-accent/20 p-3 flex items-center justify-center">
-                  <FaPhone className="text-accent text-xl" />
-                </div>
-                <div>
-                  <h3 className="mb-0.5 font-semibold text-white">Phone</h3>
-                  <p className="text-sm text-french-gray">(Coming Soon)</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-sm">
-                <div className="rounded-full bg-accent/20 p-3 flex items-center justify-center">
-                  <FaEnvelope className="text-accent text-xl" />
-                </div>
-                <div>
-                  <h3 className="mb-0.5 font-semibold text-white">Email</h3>
-                  <p className="text-sm text-french-gray">contact@chargenextdoor.com</p>
+                  <h3 className="mb-1 font-bold">Email Address</h3>
+                  <p className="text-sm text-french-gray">chargenextdoor@gmail.com</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="rounded-xl bg-white/10 backdrop-blur-sm p-8 shadow-xl flex flex-col justify-center">
+          <div className="rounded-xl bg-white/10 backdrop-blur-sm p-8 shadow-xl">
             <form className="space-y-6">
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div>
@@ -97,9 +77,9 @@ export function Contact13() {
                   placeholder="How can we help you?"
                 ></textarea>
               </div>
-              <Button
+              <Button 
                 title="Send Message"
-                className="w-full bg-accent/90 hover:bg-accent text-white font-bold rounded-lg transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 backdrop-blur-md border border-white/20 btn-pulse"
+                className="w-full bg-accent hover:bg-malachite text-mineral-green font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 btn-pulse"
               >
                 Send Message
               </Button>

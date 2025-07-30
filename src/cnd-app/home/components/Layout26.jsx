@@ -2,13 +2,8 @@
 
 import {
   Button,
-  Dialog,
-  DialogContent,
-  DialogTrigger,
-  VideoIframe,
 } from "@relume_io/relume-ui";
 import React from "react";
-import { FaCirclePlay } from "react-icons/fa6";
 import { RxChevronRight } from "react-icons/rx";
 import AutoPlayVideo from './autoplay';
 
@@ -76,14 +71,24 @@ export function Layout26() {
                 Learn More
               </a>
               <Button
-                title="Sign Up"
+                title="Download and Sign Up"
                 variant="link"
                 size="link"
                 iconRight={<RxChevronRight />}
                 className="text-governor-bay hover:text-malachite text-lg"
+                onClick={() => window.open("https://apps.apple.com/au/app/chargenextdoor/", "_blank")}
+              >
+                (Apple) Download
+              </Button>
+              <Button
+                title="Join Waitlist for Android"
+                variant="link"
+                size="link"
+                iconRight={<RxChevronRight />}
+                className="text-blue-700 hover:text-blue-800 text-lg"
                 onClick={() => window.open("https://mailchi.mp/d3662d8474be/chargenextdoor", "_blank")}
               >
-                Sign Up
+                (Android) Waitlist
               </Button>
             </div>
           </div>

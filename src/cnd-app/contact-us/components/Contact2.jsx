@@ -44,19 +44,11 @@ export function Contact2() {
               <Input type="text" id="lastName" />
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            <div className="grid w-full items-center">
-              <Label htmlFor="email" className="mb-2">
-                Email
-              </Label>
-              <Input type="email" id="email" />
-            </div>
-            <div className="grid w-full items-center">
-              <Label htmlFor="phone" className="mb-2">
-                Phone Number
-              </Label>
-              <Input type="text" id="phone" />
-            </div>
+          <div className="grid w-full items-center">
+            <Label htmlFor="email" className="mb-2">
+              Email
+            </Label>
+            <Input type="email" id="email" />
           </div>
           <div className="grid w-full items-center">
             <Label className="mb-2">Select a Topic</Label>

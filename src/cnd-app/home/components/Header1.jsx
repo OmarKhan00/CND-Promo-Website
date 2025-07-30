@@ -38,7 +38,7 @@ export function Header1() {
           <div className="space-y-8">
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-emerald-50 to-blue-50 border border-emerald-200/50 rounded-full text-sm font-medium text-emerald-700 shadow-sm animate-fade-in">
               <span className="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-pulse"></span>
-              Officially Launched 🥳
+              Officially Launched
             </div>
             
             <h1 className="header-heading text-5xl font-bold md:text-6xl lg:text-7xl leading-tight bg-gradient-to-r from-slate-900 via-blue-800 to-emerald-700 bg-clip-text text-transparent animate-slide-up">
@@ -87,12 +87,12 @@ export function Header1() {
               className="header-image relative w-full rounded-2xl object-cover shadow-2xl transform hover:scale-105 transition-all duration-700 hover:rotate-1"
               alt="Team working together"
             />
-            <div className="absolute -bottom-6 -right-6 w-10 h-10 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-xl ">
+            {/* <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-2xl flex items-center justify-center shadow-xl ">
               <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M11.5 2v7H9L13 15v-7h2.5L11.5 2z"/>
                 <path d="M3 12h3v2H3v-2zm15 0h3v2h-3v-2z"/>
               </svg>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

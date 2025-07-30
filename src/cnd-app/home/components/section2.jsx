@@ -112,7 +112,7 @@ export function Section2() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 backdrop-blur-md border border-blue-300/30 hover:border-blue-400/50 hover:from-blue-500/30 hover:to-purple-500/30 text-blue-700 hover:text-blue-800 font-bold rounded-xl transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-105 px-8 py-4 text-lg shadow-lg group"
           >
-            Sign Up
+            Join the Waitlist for Android
             <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>

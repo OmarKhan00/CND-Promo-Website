@@ -23,7 +23,6 @@ export function Navbar12() {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          
           {/* Logo with glassmorphism effect */}
           <a href="/" className="group flex items-center gap-3 z-10">
             <div className="relative">
@@ -63,17 +62,32 @@ export function Navbar12() {
             </div>
           </nav>
 
-          {/* CTA Button - Glassmorphism */}
-          <div className="hidden lg:block">
-            <a
-              href="https://mailchi.mp/d3662d8474be/chargenextdoor"
-              target="_blank"
-              rel="noopener noreferrer"
+          {/* CTA Dropdown - Download/Waitlist */}
+          <div className="hidden lg:block relative group">
+            <button
               className="group relative overflow-hidden px-6 py-2 bg-gradient-to-r from-emerald-500/30 to-blue-500/30 backdrop-blur-md border border-emerald-300/50 rounded-full text-white font-medium transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-emerald-400/70"
             >
-              <span className="relative z-10">Join Early Launch</span>
+              <span className="relative z-10">Download / Waitlist</span>
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </a>
+            </button>
+            <div className="absolute right-0 mt-2 w-56 bg-white rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity duration-200 z-50 border border-emerald-100/60">
+              <a
+                href="https://apps.apple.com/au/app/chargenextdoor/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-6 py-3 text-gray-900 hover:bg-emerald-50 hover:text-emerald-700 rounded-t-lg font-medium"
+              >
+                (Apple) Download
+              </a>
+              <a
+                href="https://mailchi.mp/d3662d8474be/chargenextdoor"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-6 py-3 text-gray-900 hover:bg-blue-50 hover:text-blue-700 rounded-b-lg font-medium"
+              >
+                (Android) Waitlist
+              </a>
+            </div>
           </div>
 
           {/* Mobile menu button - Animated */}
@@ -96,54 +110,54 @@ export function Navbar12() {
           </button>
 
           {/* Mobile Navigation - Glassmorphism Overlay */}
-          <div className={`lg:hidden fixed inset-0 z-50 transition-all duration-500 ${
+          <div className={`lg:hidden fixed inset-0 z-40 transition-all duration-500 ${
             isMobileMenuOpen 
               ? 'opacity-100 pointer-events-auto' 
               : 'opacity-0 pointer-events-none'
-          }`} style={{height: '100vh', minHeight: '-webkit-fill-available'}}>
-          <div className="absolute inset-0 bg-gradient-to-br from-emerald-600/80 via-blue-700/80 to-blue-900/90 backdrop-blur-xl shadow-2xl border border-white/20 flex flex-col">
-              {/* Close (X) Button */}
-              <button
-                className="absolute top-4 right-4 z-50 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 backdrop-blur-lg border border-white/40 text-slate-700 hover:bg-white/50 transition-all duration-200 shadow-md"
-                aria-label="Close menu"
-                onClick={() => setIsMobileMenuOpen(false)}
-                type="button"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-              <nav className="flex flex-col items-center justify-center flex-1 space-y-8">
+          }`}>
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 to-blue-900/95 backdrop-blur-xl">
+              <nav className="flex flex-col items-center justify-center h-full space-y-8">
                 <a
                   href="/"
-                  className="text-white text-2xl font-semibold hover:text-emerald-300 transition-all duration-300 hover:scale-105 drop-shadow"
+                  className="text-white text-2xl font-medium hover:text-emerald-300 transition-all duration-300 hover:scale-105"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Home
                 </a>
                 <a
                   href="/about-us"
-                  className="text-white text-2xl font-semibold hover:text-emerald-300 transition-all duration-300 hover:scale-105 drop-shadow"
+                  className="text-white text-2xl font-medium hover:text-emerald-300 transition-all duration-300 hover:scale-105"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   About
                 </a>
                 <a
                   href="/contact-us"
-                  className="text-white text-2xl font-semibold hover:text-emerald-300 transition-all duration-300 hover:scale-105 drop-shadow"
+                  className="text-white text-2xl font-medium hover:text-emerald-300 transition-all duration-300 hover:scale-105"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Contact
                 </a>
-                <a
-                  href="https://mailchi.mp/d3662d8474be/chargenextdoor"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-8 px-8 py-3 bg-gradient-to-r from-emerald-400/80 to-blue-500/80 backdrop-blur-lg border border-emerald-200/80 rounded-full text-white font-semibold transition-all duration-300 hover:scale-105 shadow-lg"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Join Early Launch
-                </a>
+                <div className="mt-8 flex flex-col gap-2 w-full px-8">
+                  <a
+                    href="https://apps.apple.com/au/app/chargenextdoor/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-6 py-3 text-white bg-gradient-to-r from-emerald-500/40 to-blue-500/40 rounded-t-lg font-medium hover:bg-emerald-600/80 hover:text-white"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    (Apple) Download
+                  </a>
+                  <a
+                    href="https://mailchi.mp/d3662d8474be/chargenextdoor"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-6 py-3 text-white bg-gradient-to-r from-blue-500/40 to-purple-500/40 rounded-b-lg font-medium hover:bg-blue-600/80 hover:text-white"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    (Android) Waitlist
+                  </a>
+                </div>
               </nav>
             </div>
           </div>
