@@ -4,7 +4,7 @@ import React from "react";
 import { MainNavbar } from "../../components/common/MainNavbar";
 import { Contact13 } from "./components/Contact13";
 import { FaqSection } from "./components/FaqSection";
-import { Footer2 } from "../../components/common/Footer2";
+import Footer from "../../components/footer/Footer";
 
 export default function ContactUs() {
   return (
@@ -16,7 +16,7 @@ export default function ContactUs() {
       <div className="mt-8">
         <Contact13 />
       </div>
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

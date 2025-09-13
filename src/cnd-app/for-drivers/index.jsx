@@ -7,7 +7,7 @@ import { Layout3 } from "./components/Layout3";
 import { Layout12 } from "./components/Layout12";
 import { Layout3_1 } from "./components/Layout3_1";
 import { Cta1 } from "./components/Cta1";
-import { Footer2 } from "../../components/common/Footer2";
+import Footer from "../../components/footer/Footer";
 
 export default function ForDrivers() {
   return (
@@ -18,7 +18,7 @@ export default function ForDrivers() {
       <Layout12 />
       <Layout3_1 />
       <Cta1 />
-      <Footer2 />
+      <Footer />
     </div>
   );
 }
