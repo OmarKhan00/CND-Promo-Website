@@ -8,7 +8,7 @@ import { Layout242 } from "./components/Layout242";
 import { Layout27 } from "./components/Layout27";
 import { Testimonial6 } from "./components/Testimonial6";
 import { WaitlistCTA } from "./components/WaitlistCTA";
-import { Footer2 } from "../../components/common/Footer2";
+import Footer from "../../components/footer/Footer";
 
 export default function ForHosts() {
   return (
@@ -20,7 +20,7 @@ export default function ForHosts() {
       <Layout27 />
       <Testimonial6 />
       <WaitlistCTA />
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

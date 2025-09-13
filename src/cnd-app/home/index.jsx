@@ -7,7 +7,7 @@ import { Section2 } from "./components/section2";
 import { Testimonial14 } from "./components/Testimonial14";
 import { CallToActionHero } from "./components/CallToActionHero";
 import { Cta20 } from "./components/Cta20";
-import { Footer2 } from "../../components/common/Footer2";
+import Footer from "../../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       <Testimonial14 />
       <CallToActionHero />
       <Cta20 />
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

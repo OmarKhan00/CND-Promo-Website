@@ -6,7 +6,7 @@ import { Header47 } from "./components/Header47";
 import { Team8 } from "./components/Team8";
 import { Gallery8 } from "./components/Gallery8";
 import { Cta3 } from "./components/Cta3";
-import { Footer2 } from "../../components/common/Footer2";
+import Footer from "../../components/footer/Footer";
 
 export default function AboutUs() {
   return (
@@ -17,7 +17,7 @@ export default function AboutUs() {
         <Team8 />
         <Cta3 />
         <Gallery8 />
-        <Footer2 />
+        <Footer />
       </div>
     </div>
   );
