@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-import relumeTailwind from "@relume_io/relume-tailwind";
+const relumeTailwind = require('@relume_io/relume-tailwind');
 
 module.exports = {
   content: [
