@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { Navbar12 } from "./components/Navbar12";
+import { Navbar12 } from "../../components/common/Navbar12";
 import { Header1 } from "./components/Header1";
-import { Footer2 } from "./components/Footer2";
+import { Footer2 } from "../../components/common/Footer2";
 import { Cta7 } from "./components/Cta7";
 
 export default function Home() {

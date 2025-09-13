@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import logo from "../../../assets/CND_Logo.png";
+import logo from "../../assets/CND_Logo.png";
 
 export function Navbar12() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
