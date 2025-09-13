@@ -1,7 +1,3 @@
-
-
-"use client";
-
 import React from "react";
 import { FaHome, FaCar, FaBolt } from "react-icons/fa";
 import AutoPlayVideo from './autoplay';

@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from "react";
 import { FaEnvelope, FaCheckCircle } from "react-icons/fa";
 import emailjs from 'emailjs-com';

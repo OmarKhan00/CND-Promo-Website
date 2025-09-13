@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { FaBolt, FaMoneyBillWave, FaMapMarkedAlt, FaShieldAlt, FaLeaf, FaUserFriends } from "react-icons/fa";
 

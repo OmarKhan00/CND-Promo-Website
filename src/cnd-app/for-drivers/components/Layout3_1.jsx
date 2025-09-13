@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import MyImage from '../../../assets/car-coming-in.png';
 

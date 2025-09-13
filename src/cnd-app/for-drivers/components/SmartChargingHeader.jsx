@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@relume_io/relume-ui";
 import React, { useEffect } from "react";
 import AppStoreButton from "../../../assets/Buttons/AppStoreButton";

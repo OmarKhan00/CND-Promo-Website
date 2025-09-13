@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import MyImage from '../../../assets/rating.png';
 import HowItWorks from './HowItWorks';
