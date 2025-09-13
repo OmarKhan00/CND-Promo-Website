@@ -8,7 +8,7 @@ import {
   } from "@relume_io/relume-ui";
 import { RxPlus } from "react-icons/rx";
 
-const Faq4 = (props) => {
+const FaqSection = (props) => {
   const {
     heading,
     description,
@@ -16,7 +16,7 @@ const Faq4 = (props) => {
     footerHeading,
     footerDescription,
   } = {
-    ...Faq4Defaults,
+    ...FaqSectionDefaults,
     ...props,
   };
 
@@ -101,7 +101,7 @@ const Faq4 = (props) => {
 
 
 
-const Faq4Defaults = {
+const FaqSectionDefaults = {
   heading: "FAQs",
   description:
     "Here are some common questions we receive from our users about our service.",
@@ -454,4 +454,4 @@ const Faq4Defaults = {
 };
 
 
-export { Faq4, Faq4Defaults };
+export { FaqSection, FaqSectionDefaults };

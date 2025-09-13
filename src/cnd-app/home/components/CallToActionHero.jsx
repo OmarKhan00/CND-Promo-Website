@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import AppStoreButton from "../../../assets/Buttons/AppStoreButton";
 import PlayStoreButton from "../../../assets/Buttons/PlayStoreButton";
 
-export function Cta7() {
+export function CallToActionHero() {
   useEffect(() => {
     // Add intersection observer for scroll animations
     const observer = new IntersectionObserver((entries) => {

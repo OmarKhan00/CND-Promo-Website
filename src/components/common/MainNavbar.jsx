@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/CND_Logo.png";
 
-export function Navbar12() {
+export function MainNavbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 

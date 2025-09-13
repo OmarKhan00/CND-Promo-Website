@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Navbar12 } from "../../components/common/Navbar12";
+import { MainNavbar } from "../../components/common/MainNavbar";
 import { Header47 } from "./components/Header47";
 import { Layout41 } from "./components/Layout41";
 import { Layout369 } from "./components/Layout369";
@@ -13,7 +13,7 @@ import { Footer2 } from "../../components/common/Footer2";
 export default function AboutUs() {
   return (
     <div className="min-h-screen bg-white">
-      <Navbar12 />
+      <MainNavbar />
       <br />
       <Header47 />
       {/* <Layout41 /> */}
