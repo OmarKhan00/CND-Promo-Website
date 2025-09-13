@@ -10,7 +10,7 @@ export function Team4() {
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl ">
               Meet Our Team
             </h2>
-            <p className="md:text-md text-french-gray">
+            <p className="md:text-md text-muted-foreground">
               The passionate individuals behind ChargeNextDoor who are dedicated to revolutionizing EV charging.
             </p>
           </div>
@@ -25,17 +25,17 @@ export function Team4() {
               />
             </div>
             <h3 className="mb-1 text-xl font-bold md:text-2xl">Kyle Smith</h3>
-            <p className="mb-4 text-french-gray">CEO & Co-Founder</p>
+            <p className="mb-4 text-muted-foreground">CEO & Co-Founder</p>
             <div className="flex gap-4">
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaLinkedin />
               </a>
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaTwitter />
               </a>
@@ -50,17 +50,17 @@ export function Team4() {
               />
             </div>
             <h3 className="mb-1 text-xl font-bold md:text-2xl">Sarah Johnson</h3>
-            <p className="mb-4 text-french-gray">CTO & Co-Founder</p>
+            <p className="mb-4 text-muted-foreground">CTO & Co-Founder</p>
             <div className="flex gap-4">
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaLinkedin />
               </a>
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaGithub />
               </a>
@@ -75,17 +75,17 @@ export function Team4() {
               />
             </div>
             <h3 className="mb-1 text-xl font-bold md:text-2xl">David Chen</h3>
-            <p className="mb-4 text-french-gray">Head of Product</p>
+            <p className="mb-4 text-muted-foreground">Head of Product</p>
             <div className="flex gap-4">
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaLinkedin />
               </a>
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaTwitter />
               </a>
@@ -100,17 +100,17 @@ export function Team4() {
               />
             </div>
             <h3 className="mb-1 text-xl font-bold md:text-2xl">Emily Rodriguez</h3>
-            <p className="mb-4 text-french-gray">Marketing Director</p>
+            <p className="mb-4 text-muted-foreground">Marketing Director</p>
             <div className="flex gap-4">
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaLinkedin />
               </a>
               <a
                 href="#"
-                className="flex size-10 items-center justify-center rounded-full bg-governor-bay/10 text-governor-bay hover:bg-governor-bay hover:text-white transition-colors duration-300"
+                className="flex size-10 items-center justify-center rounded-full bg-muted text-foreground hover:bg-muted/80 transition-colors duration-300"
               >
                 <FaTwitter />
               </a>
