@@ -347,9 +347,9 @@
 import React from "react";
 import { FaBolt, FaHandshake, FaHome } from "react-icons/fa";
 import { BiChevronRight } from "react-icons/bi";
-import ChargingImage from '../../../assets/Person-using-smartphone-to-book-a-charger-in-car.jpeg';
-import CommunityImage from '../../../assets/chargingcommunity.webp';
-import HostImage from '../../../assets/EV charger in garage.jpeg';
+import ChargingImage from '../../../assets/person-using-smartphone-to-book-a-charger-in-car.jpeg';
+import CommunityImage from '../../../assets/charging-community.webp';
+import HostImage from '../../../assets/ev-charger-in-garage.jpeg';
 
 export function Layout369() {
   return (

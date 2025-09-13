@@ -1,6 +1,6 @@
-import MyImage from '../../../assets/List charger 3.png';
-import MyImage2 from '../../../assets/List charger 4,5 (Price).png';
-import MyImage3 from '../../../assets/List charger 6_2 (Payment).png';
+import MyImage from '../../../assets/list-charger-3.png';
+import MyImage2 from '../../../assets/list-charger-4-5-price.png';
+import MyImage3 from '../../../assets/list-charger-6-2-payment.png';
 
 const HowItWorks = () => {
     return (

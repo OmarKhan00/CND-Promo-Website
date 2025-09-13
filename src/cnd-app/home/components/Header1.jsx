@@ -2,7 +2,7 @@
 
 // import Button removed: unused
 import React, { useEffect } from "react";
-import MyImage from "../../../assets/About us page.png";
+import MyImage from "../../../assets/about-us-page.png";
 import AppStoreButton from '../../../assets/Buttons/AppStoreButton';
 import PlayStoreButton from '../../../assets/Buttons/PlayStoreButton';
 

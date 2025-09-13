@@ -1,6 +1,6 @@
-import MyImage from '../../../assets/User Process -1 .png';
-import MyImage2 from '../../../assets/User Process -2 .png.png';
-import MyImage3 from '../../../assets/User Process -3 .png.png';
+import MyImage from '../../../assets/user-process-1.png';
+import MyImage2 from '../../../assets/user-process-2.png';
+import MyImage3 from '../../../assets/user-process-3.png';
 
 const HowItWorks = () => {
     return (

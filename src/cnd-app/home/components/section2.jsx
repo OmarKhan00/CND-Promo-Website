@@ -192,7 +192,7 @@ export function Layout12() {
           <div className="relative">
             <div className="absolute -top-5 -left-5 w-full h-full bg-governor-bay/20 rounded-xl transform rotate-3"></div>
             <img
-              src={require('../../../assets/Host and Driver.png')}
+              src={require('../../../assets/host-and-driver.png')}
               className="w-full rounded-xl object-cover shadow-xl relative z-10"
               alt="EV charging station"
             />

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import MyImage from '../../../assets/Car coming in.png';
+import MyImage from '../../../assets/car-coming-in.png';
 
 export function Layout3_1() {
   return (

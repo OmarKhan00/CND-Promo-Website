@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FaHome, FaCar, FaBolt } from "react-icons/fa";
-import MyImage from '../../../assets/Host and Driver.png';
+import MyImage from '../../../assets/host-and-driver.png';
 
 export function Layout12() {
   return (

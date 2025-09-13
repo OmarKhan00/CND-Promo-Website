@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FaMoneyBillWave, FaCalendarAlt, FaMobileAlt, FaChartLine, FaHandshake } from "react-icons/fa";
-import MyImage from '../../../assets/Earning figures for Host.png';
+import MyImage from '../../../assets/earning-figures-for-host.png';
 export function Layout6() {
   // Define the features array
   const features = [
