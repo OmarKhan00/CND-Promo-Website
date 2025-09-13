@@ -1,5 +1,3 @@
-// "use client";
-
 // import { Button, Card } from "@relume_io/relume-ui";
 // import React from "react";
 // import { RxChevronRight } from "react-icons/rx";
@@ -112,7 +110,6 @@
 //   );
 // }
 
-// "use client";
 
 // import { Button, Carousel, CarouselContent, CarouselItem } from "@relume_io/relume-ui";
 // import React from "react";
@@ -228,7 +225,6 @@
 //   );
 // }
 
-// "use client";
 
 // import { Button, Sheet } from "@relume_io/relume-ui";
 // import React from "react";
@@ -342,7 +338,6 @@
 //   );
 // }
 
-"use client";
 
 import React from "react";
 import { FaBolt, FaHandshake, FaHome } from "react-icons/fa";

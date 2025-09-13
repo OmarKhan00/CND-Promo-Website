@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import MyImage2 from '../../../assets/person-using-smartphone-to-book-a-charger-in-car.jpeg';
 import MyImage3 from '../../../assets/brainstorming.png';

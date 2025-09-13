@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { FaBolt, FaUsers, FaLeaf } from "react-icons/fa";
 import MyImage from '../../../assets/person-charging-ev-2.jpg';

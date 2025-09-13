@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
 import STimage from '../../../assets/st.jpg';

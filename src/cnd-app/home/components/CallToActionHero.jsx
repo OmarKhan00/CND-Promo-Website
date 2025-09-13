@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect } from "react";
 import AppStoreButton from "../../../assets/Buttons/AppStoreButton";
 import PlayStoreButton from "../../../assets/Buttons/PlayStoreButton";

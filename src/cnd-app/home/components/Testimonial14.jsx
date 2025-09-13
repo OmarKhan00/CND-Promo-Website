@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { BiSolidStar } from "react-icons/bi";
 import { FaQuoteLeft } from "react-icons/fa6";

@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import HowItWorks from "./HowItWorks";
 import { Button } from "@relume_io/relume-ui";

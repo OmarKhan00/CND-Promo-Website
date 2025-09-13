@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { MainNavbar } from "../../components/common/MainNavbar";
 import { Header47 } from "./components/Header47";

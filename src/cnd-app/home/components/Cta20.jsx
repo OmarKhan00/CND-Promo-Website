@@ -1,5 +1,3 @@
-"use client";
-
 import { Button, Input } from "@relume_io/relume-ui";
 import React from "react";
 import { FaBolt, FaEnvelope } from "react-icons/fa";

@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { MainNavbar } from "../../components/common/MainNavbar";
 import { Contact13 } from "./components/Contact13";
