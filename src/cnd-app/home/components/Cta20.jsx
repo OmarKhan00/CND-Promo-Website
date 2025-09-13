@@ -41,7 +41,7 @@ export function Cta20() {
                 <Input id="email" type="email" placeholder="Your Email Here" className="bg-white/10 backdrop-blur-sm border-french-gray/30 text-white placeholder-french-gray/50 pl-10 py-3" />
                 <FaEnvelope className="absolute left-3 top-1/2 -translate-y-1/2 text-french-gray/50" />
               </div>
-              <Button title="Subscribe Now" className="bg-green hover:bg-french-gray text-dark-turquoise font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 btn-pulse">Subscribe Now</Button>
+              <Button title="Subscribe Now" className="bg-green hover:bg-french-gray text-dark-turquoise font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1">Subscribe Now</Button>
             </form>
             <p className="text-xs text-french-gray">
               By clicking Subscribe Now, you agree to our Terms and Conditions.

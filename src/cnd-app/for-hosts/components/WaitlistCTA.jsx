@@ -16,10 +16,10 @@ export function WaitlistCTA() {
             Reserve your spot and start hosting when we launch!
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-4 md:mt-8">
-            <Button title="Download and Sign Up" className="pulse bg-accent hover:bg-malachite text-governor-bay font-bold rounded-lg transition-all duration-300 hover:shadow-lg"
+            <Button title="Download and Sign Up" className="animate-pulse bg-accent hover:bg-malachite text-governor-bay font-bold rounded-lg transition-all duration-300 hover:shadow-lg"
               onClick={() => window.open("https://apps.apple.com/au/app/chargenextdoor/", "_blank")}
             >(Apple) Download</Button>
-            <Button title="Join Waitlist for Android" className="pulse bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg"
+            <Button title="Join Waitlist for Android" className="animate-pulse bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg"
               onClick={() => window.open("https://mailchi.mp/d3662d8474be/chargenextdoor#SignupForm_0", "_blank")}
             >(Android) Waitlist</Button>
             <Button title="Learn More" variant="secondary" className="bg-governor-bay hover:bg-malachite text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg "

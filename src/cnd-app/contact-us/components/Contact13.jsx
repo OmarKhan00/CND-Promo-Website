@@ -79,7 +79,7 @@ export function Contact13() {
               </div>
               <Button 
                 title="Send Message"
-                className="w-full bg-accent hover:bg-malachite text-mineral-green font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 btn-pulse"
+                className="w-full bg-accent hover:bg-malachite text-mineral-green font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
               >
                 Send Message
               </Button>

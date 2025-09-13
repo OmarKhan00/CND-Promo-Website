@@ -6,12 +6,11 @@ import ForDrivers from './cnd-app/for-drivers/index';
 import ForHosts from './cnd-app/for-hosts/index';
 import Home from './cnd-app/home/index';
 import PrivacyPolicy from './pages/PrivacyPolicy';
-import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="text-center">
         <Routes>
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
