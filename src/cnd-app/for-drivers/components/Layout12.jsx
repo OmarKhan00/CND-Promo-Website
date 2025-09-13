@@ -1,7 +1,5 @@
 import React from "react";
 import HowItWorks from "./HowItWorks";
-import { Button } from "@relume_io/relume-ui";
-import { RxChevronRight } from "react-icons/rx";
 import MyImage1 from '../../../assets/host-ev-driver-meet.png';
 import MyImage2 from '../../../assets/waiting.png';
 import MyImage3 from '../../../assets/afforable.png';
@@ -11,14 +9,14 @@ import MyImage4 from '../../../assets/easy-icon.png';
 
 export function Layout12() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-muted/40">
       <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           <div>
             <h1 className="mb-5 text-4xl leading-[1.2] font-bold md:mb-6 md:text-5xl lg:text-6xl text-governor-bay">
               Experience Secure and Convenient Charging at Trusted Hosts' Homes
             </h1>
-            <p className="mb-6 md:mb-8 md:text-md text-black">
+            <p className="mb-6 md:mb-8 md:text-md text-foreground">
               Say goodbye to the anxiety of public charging stations. Our
               platform connects you with vetted hosts offering secure home
               charging options.
@@ -53,7 +51,7 @@ export function Layout12() {
               <h3 className=" min-h-[60px] mb-5 text-xl font-bold md:mb-6 md:text-2xl text-governor-bay">
                 Affordable Charging 
               </h3>
-              <p className="mb-5 md:mb-6 text-black">
+              <p className="mb-5 md:mb-6 text-foreground">
                 Find charging spots that fit your budget. Our hosts offer competitive pricing compared to traditional public charging stations, 
                 so you can charge your EV affordably without compromising quality
               </p>
@@ -69,7 +67,7 @@ export function Layout12() {
               <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl text-governor-bay">
                 Simple Setup, No Technical Expertise Needed
               </h3>
-              <p className="mb-5 md:mb-6 text-black">
+              <p className="mb-5 md:mb-6 text-foreground">
                 Setting up your charger is quick and easy.
                 The CND platform provides a user-friendly interface that requires no technical expertise, ensuring a seamless experience from start to finish.
               </p>
@@ -85,7 +83,7 @@ export function Layout12() {
               <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl text-governor-bay">
                 No more waiting or charger hogging
               </h3>
-              <p className="mb-5 md:mb-6 text-black">
+              <p className="mb-5 md:mb-6 text-foreground">
                 Say goodbye to long lines at public charging stations and the frustration of charger hogging. With CND, 
                 you can easily find available home chargers near you—no crowds, no delays, just seamless charging when you need it.
               </p>

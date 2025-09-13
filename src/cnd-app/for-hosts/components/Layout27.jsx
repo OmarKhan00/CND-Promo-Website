@@ -5,14 +5,14 @@ import HowItWorks from './HowItWorks';
 
 export function Layout27() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-muted/40">
       <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20 ">
           <div>
             <h2 className="rb-5 mb-5 text-4xl leading-[1.2] font-bold md:mb-6 md:text-5xl lg:text-6xl text-governor-bay">
               Get Ready to Earn Passive Income by Hosting EV Chargers in Your Community
             </h2>
-            <p className="mb-6 md:mb-8 md:text-md text-black">
+            <p className="mb-6 md:mb-8 md:text-md text-foreground">
             Be part of an exciting new opportunity—join a 
             growing community of early adopters already 
             waiting to start earning from their underutilized EV chargers.

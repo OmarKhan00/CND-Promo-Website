@@ -4,7 +4,7 @@ import MyImage3 from '../../../assets/user-process-3.png';
 
 const HowItWorks = () => {
     return (
-      <section className="py-16 bg-white-50">
+      <section className="py-16 bg-muted/40">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="rb-5 mb-9 text-4xl leading-[1.2] font-bold md:mb-6 md:text-5xl lg:text-6xl text-governor-bay">How It Works</h2>
   
@@ -17,7 +17,7 @@ const HowItWorks = () => {
             />
             <div className="w-full md:w-[60%]">
               <h3 className="mb-4 text-xl font-bold md:mb-5 md:text-2xl text-governor-bay">1. Search</h3>
-              <p className="text-base md:text-lg leading-relaxed text-black">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 Find nearby home chargers available when and where you need them.
               </p>
             </div>
@@ -32,7 +32,7 @@ const HowItWorks = () => {
             />
             <div className="w-full md:w-[45%]">
               <h3 className="mb-4 text-xl font-bold md:mb-5 md:text-2xl text-governor-bay">2. Book</h3>
-              <p className="text-base md:text-lg leading-relaxed text-black">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 Reserve a charger in seconds with transparent pricing and secure payment.
               </p>
             </div>
@@ -47,7 +47,7 @@ const HowItWorks = () => {
             />
             <div className="w-full md:w-[45%]">
               <h3 className="mb-4 text-xl font-bold md:mb-5 md:text-2xl text-governor-bay">3. Charge and Go </h3>
-              <p className="text-base md:text-lg leading-relaxed text-black">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 Plug in, power up, and hit the road with peace of mind.
               </p>
             </div>
