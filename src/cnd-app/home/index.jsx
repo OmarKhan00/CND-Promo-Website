@@ -13,14 +13,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <MainNavbar />
-      <br/>
-      <Header1 />
-      {/* <Layout12 /> */}
+      <div className="mt-8">
+        <Header1 />
+      </div>
       <Section2 />
-      {/* <Layout246 /> */}
-      {/* <Layout26 /> */}
       <Testimonial14 />
-      {/* <Layout239 /> */}
       <CallToActionHero />
       <Cta20 />
       <Footer2 />
