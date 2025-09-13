@@ -2,7 +2,6 @@
 
 import { Button, Input } from "@relume_io/relume-ui";
 import React, { useState } from "react";
-import PrivacyPolicy from "../../Pages/PrivacyPolicy";
 
 
 import {
