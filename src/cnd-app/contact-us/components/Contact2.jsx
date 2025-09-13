@@ -1,7 +1,5 @@
 import {
-  Button,
   Checkbox,
-  Input,
   Label,
   RadioGroup,
   RadioGroupItem,
@@ -10,9 +8,12 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-  Textarea,
 } from "@relume_io/relume-ui";
 import React from "react";
+import { Input } from "../../../components/ui/input";
+import { Textarea } from "../../../components/ui/textarea";
+import { Button } from "../../../components/ui/button";
+import { Card } from "../../../components/ui/card";
 
 export function Contact2() {
   return (
@@ -27,6 +28,7 @@ export function Contact2() {
           </h2>
           <p className="md:text-md">We'd love to hear from you!</p>
         </div>
+        <Card className="p-6">
         <form className="grid grid-cols-1 grid-rows-[auto_auto] gap-6">
           <div className="grid grid-cols-2 gap-6">
             <div className="grid w-full items-center">
@@ -107,9 +109,10 @@ export function Contact2() {
             </Label>
           </div>
           <div className="text-center">
-            <Button title="Submit">Submit</Button>
+            <Button type="submit">Submit</Button>
           </div>
         </form>
+        </Card>
       </div>
     </section>
   );
