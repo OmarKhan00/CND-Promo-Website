@@ -1,4 +1,4 @@
-import videoSrc from '../../../assets/Simple-steps-to-list-your-charger-mod.mp4';
+import videoSrc from '../../../assets/simple-steps-to-list-your-charger-mod.mp4';
 
 export default function AutoPlayVideo() {
   return (

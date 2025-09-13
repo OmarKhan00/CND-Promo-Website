@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import MyImage2 from '../../../assets/Person-using-smartphone-to-book-a-charger-in-car.jpeg';
-import MyImage3 from '../../../assets/Brainstorming.png';
-import MyImage4 from '../../../assets/Testing Charger in site.jpeg';
-import MyImage5 from '../../../assets/EV charger in garage.jpeg';
-import MyImage6 from '../../../assets/chargingcommunity.webp';
+import MyImage2 from '../../../assets/person-using-smartphone-to-book-a-charger-in-car.jpeg';
+import MyImage3 from '../../../assets/brainstorming.png';
+import MyImage4 from '../../../assets/testing-charger-in-site.jpeg';
+import MyImage5 from '../../../assets/ev-charger-in-garage.jpeg';
+import MyImage6 from '../../../assets/charging-community.webp';
 
 export function Gallery8() {
   return (

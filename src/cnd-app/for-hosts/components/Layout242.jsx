@@ -3,9 +3,9 @@
 import { Button } from "@relume_io/relume-ui";
 import React from "react";
 import { RxChevronRight } from "react-icons/rx";
-import MyImage from '../../../assets/EasyIcon.png';
-import MyImage2 from '../../../assets/Network growth.png';
-import MyImage3 from '../../../assets/FlexSchedule.png';
+import MyImage from '../../../assets/easy-icon.png';
+import MyImage2 from '../../../assets/network-growth.png';
+import MyImage3 from '../../../assets/flex-schedule.png';
 
 
 export function Layout242() {

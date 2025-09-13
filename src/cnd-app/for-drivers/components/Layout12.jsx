@@ -4,10 +4,10 @@ import React from "react";
 import HowItWorks from "./HowItWorks";
 import { Button } from "@relume_io/relume-ui";
 import { RxChevronRight } from "react-icons/rx";
-import MyImage1 from '../../../assets/Host,EV Driver meet.png';
-import MyImage2 from '../../../assets/Waiting.png';
-import MyImage3 from '../../../assets/Afforable.png';
-import MyImage4 from '../../../assets/EasyIcon.png';
+import MyImage1 from '../../../assets/host-ev-driver-meet.png';
+import MyImage2 from '../../../assets/waiting.png';
+import MyImage3 from '../../../assets/afforable.png';
+import MyImage4 from '../../../assets/easy-icon.png';
 
 
 

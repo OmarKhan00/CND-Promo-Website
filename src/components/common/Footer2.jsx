@@ -12,7 +12,7 @@ import {
   BiCar,
 } from "react-icons/bi";
 import { FaXTwitter } from "react-icons/fa6";
-import logo from "../../assets/CND_Logo.png";
+import logo from "../../assets/cnd-logo.png";
 
 const useForm = () => {
   const [email, setEmail] = useState("");

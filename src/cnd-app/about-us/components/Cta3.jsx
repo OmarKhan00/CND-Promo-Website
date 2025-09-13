@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import MyImage from '../../../assets/EV Plugged in.png';
+import MyImage from '../../../assets/ev-plugged-in.png';
 
 export function Cta3() {
   return (

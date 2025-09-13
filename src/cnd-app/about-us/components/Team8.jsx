@@ -2,10 +2,10 @@
 
 import React from "react";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
-import STimage from '../../../assets/ST.jpg';
-import OKimage from '../../../assets/OK.jpeg';
-import KSimage from '../../../assets/KS.jpg';
-import EEimage from '../../../assets/EE.jpg';
+import STimage from '../../../assets/st.jpg';
+import OKimage from '../../../assets/ok.jpeg';
+import KSimage from '../../../assets/ks.jpg';
+import EEimage from '../../../assets/ee.jpg';
 
 export function Team8() {
   return (

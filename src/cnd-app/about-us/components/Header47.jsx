@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FaBolt, FaUsers, FaLeaf } from "react-icons/fa";
-import MyImage from '../../../assets/Person-Charging-EV-2.jpg';
+import MyImage from '../../../assets/person-charging-ev-2.jpg';
 
 export function Header47() {
   return (
