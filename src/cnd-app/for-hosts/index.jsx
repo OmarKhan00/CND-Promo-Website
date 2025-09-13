@@ -10,7 +10,7 @@ import Footer from "../../components/footer/Footer";
 
 export default function ForHosts() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-muted/40">
       <MainNavbar />
       <HostHeroHeader />
       <Layout6 />

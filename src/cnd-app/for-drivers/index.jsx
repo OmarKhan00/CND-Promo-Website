@@ -9,7 +9,7 @@ import Footer from "../../components/footer/Footer";
 
 export default function ForDrivers() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-muted/40">
       <MainNavbar />
       <SmartChargingHeader />
       <Layout3 />

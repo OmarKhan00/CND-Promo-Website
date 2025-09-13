@@ -1,5 +1,5 @@
-import { Button } from "@relume_io/relume-ui";
 import React, { useEffect } from "react";
+import { Button } from "../../../components/ui/button";
 
 export function HostHeroHeader() {
   useEffect(() => {
@@ -29,18 +29,23 @@ export function HostHeroHeader() {
               Our platform makes it easy to list your charger, set your rates, and manage bookings.
             </p>
             <div className="header-buttons mt-6 flex justify-center flex-wrap gap-4 md:mt-8">
-              <Button 
+              <Button
                 title="Become a Host"
                 className="bg-accent hover:bg-malachite text-governor-bay font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
-                onClick={() => window.open("https://mailchi.mp/d3662d8474be/chargenextdoor", "_blank")}
+                onClick={() =>
+                  window.open(
+                    "https://mailchi.mp/d3662d8474be/chargenextdoor",
+                    "_blank"
+                  )
+                }
               >
                 Become a Host
               </Button>
-            
-              <Button 
-                title="Learn More" 
-                variant="secondary"
-                onClick={() => window.location.href = "/contact-us"}
+
+              <Button
+                title="Learn More"
+                variant="ghost"
+                onClick={() => (window.location.href = "/contact-us")}
                 className="bg-transparent text-white font-bold border-2 border-accent rounded-lg transition-all duration-300 hover:bg-accent/10 hover:shadow-lg hover:-translate-y-1"
               >
                 Learn More

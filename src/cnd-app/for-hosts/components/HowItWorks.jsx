@@ -4,7 +4,7 @@ import MyImage3 from '../../../assets/list-charger-6-2-payment.png';
 
 const HowItWorks = () => {
     return (
-      <section className="py-16 bg-white-50">
+      <section className="py-16 bg-muted/40">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="rb-5 mb-9 text-4xl leading-[1.2] font-bold md:mb-6 md:text-5xl lg:text-6xl text-governor-bay ">How It Works</h2>
   
@@ -17,7 +17,7 @@ const HowItWorks = () => {
             />
             <div className="w-full md:w-[60%]">
               <h3 className="mb-4 text-xl font-bold md:mb-5 md:text-2xl text-governor-bay ">1. List Your Charger</h3>
-              <p className="text-base md:text-lg leading-relaxed text-black">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 Add your charger to the platform in just a few clicks. We'll guide you through setting it up quickly and easily.
               </p>
             </div>
@@ -32,7 +32,7 @@ const HowItWorks = () => {
             />
             <div className="w-full md:w-[45%]">
               <h3 className="mb-4 text-xl font-bold md:mb-5 md:text-2xl text-governor-bay ">2. Set Pricing & Availability</h3>
-              <p className="text-base md:text-lg leading-relaxed text-black">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 Decide when your charger is available and how much to charge. You’re in full control of your schedule and rates.
               </p>
             </div>
@@ -47,7 +47,7 @@ const HowItWorks = () => {
             />
             <div className="w-full md:w-[45%]">
               <h3 className="mb-4 text-xl font-bold md:mb-5 md:text-2xl text-governor-bay ">3. Start Earning</h3>
-              <p className="text-base md:text-lg leading-relaxed text-black">
+              <p className="text-base md:text-lg leading-relaxed text-foreground">
                 Once your charger is listed, users can start booking. Earn money effortlessly while helping your community charge up.
               </p>
             </div>

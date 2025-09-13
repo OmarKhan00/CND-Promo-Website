@@ -1,5 +1,5 @@
-import { Button } from "@relume_io/relume-ui";
 import React, { useEffect } from "react";
+import { Button } from "../../../components/ui/button";
 import AppStoreButton from "../../../assets/Buttons/AppStoreButton";
 
 export function SmartChargingHeader() {
@@ -41,18 +41,23 @@ export function SmartChargingHeader() {
             </div>
             
             <div className="header-buttons mt-6 flex justify-center flex-wrap gap-4 md:mt-8">
-              <Button 
+              <Button
                 title="Learn More"
                 className="bg-accent hover:bg-malachite text-governor-bay font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
-                onClick={() => window.location.href = "/contact-us"}
+                onClick={() => (window.location.href = "/contact-us")}
               >
                 Learn More
               </Button>
-              <Button 
-                title="Sign Up" 
-                variant="secondary"
+              <Button
+                title="Sign Up"
+                variant="ghost"
                 className="bg-transparent text-white font-bold border-2 border-accent rounded-lg transition-all duration-300 hover:bg-accent/10 hover:shadow-lg hover:-translate-y-1"
-                onClick={() => window.open("https://mailchi.mp/d3662d8474be/chargenextdoor", "_blank")}
+                onClick={() =>
+                  window.open(
+                    "https://mailchi.mp/d3662d8474be/chargenextdoor",
+                    "_blank"
+                  )
+                }
               >
                 Sign Up
               </Button>
