@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { FaEnvelope, FaCheckCircle } from "react-icons/fa";
 import emailjs from 'emailjs-com';
+import { Input } from "../../../components/ui/input";
+import { Textarea } from "../../../components/ui/textarea";
+import { Button } from "../../../components/ui/button";
+import { Card } from "../../../components/ui/card";
 
 export function Header47() {
   const [formData, setFormData] = useState({
@@ -47,12 +51,8 @@ export function Header47() {
   };
 
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28 pt-32 relative overflow-hidden bg-gradient-to-br from-slate-50 to-blue-50">
-      {/* Background decorative elements */}
-      <div className="absolute -top-20 -right-20 w-64 h-64 bg-gradient-to-r from-emerald-400/10 to-blue-400/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-10 -left-20 w-80 h-80 bg-gradient-to-r from-blue-400/10 to-purple-400/10 rounded-full blur-3xl"></div>
-      
-      <div className="container relative z-10">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28 pt-32 bg-gray-50">
+      <div className="container">
         <div className="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
           
           {/* Text Content - LEFT SIDE */}
@@ -86,20 +86,19 @@ export function Header47() {
           </div>
 
           {/* Contact Form - RIGHT SIDE */}
-          <div className="relative">
-            <div className="rounded-2xl bg-gradient-to-r from-white/80 to-blue-50/80 backdrop-blur-sm border border-white/30 shadow-lg p-8">
+          <div>
+            <Card className="p-8 shadow">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                     Your Name
                   </label>
-                  <input
+                  <Input
                     id="name"
                     type="text"
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full rounded-xl border border-gray-200/50 bg-white/60 backdrop-blur-sm p-4 text-gray-800 placeholder-gray-500 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/20 transition-all duration-300"
                     placeholder="Enter your full name"
                   />
                 </div>
@@ -108,13 +107,12 @@ export function Header47() {
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                     Email Address
                   </label>
-                  <input
+                  <Input
                     id="email"
                     type="email"
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full rounded-xl border border-gray-200/50 bg-white/60 backdrop-blur-sm p-4 text-gray-800 placeholder-gray-500 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/20 transition-all duration-300"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -123,21 +121,20 @@ export function Header47() {
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                     Your Message
                   </label>
-                  <textarea
+                  <Textarea
                     id="message"
                     value={formData.message}
                     onChange={handleChange}
                     required
                     rows="5"
-                    className="w-full rounded-xl border border-gray-200/50 bg-white/60 backdrop-blur-sm p-4 text-gray-800 placeholder-gray-500 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400/20 transition-all duration-300 resize-none"
                     placeholder="Tell us how we can help you..."
                   />
                 </div>
 
-                <button 
+                <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold rounded-xl transition-all duration-300 hover:shadow-xl hover:-translate-y-1 px-8 py-4 text-lg shadow-lg group disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full gap-2"
                 >
                   {isSubmitting ? (
                     <>
@@ -147,12 +144,12 @@ export function Header47() {
                   ) : (
                     <>
                       Send Message
-                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                       </svg>
                     </>
                   )}
-                </button>
+                </Button>
 
                 {/* Status Messages */}
                 {submitStatus === 'success' && (
@@ -161,14 +158,14 @@ export function Header47() {
                     <span>Message sent successfully! We'll get back to you soon.</span>
                   </div>
                 )}
-                
+
                 {submitStatus === 'error' && (
                   <div className="flex items-center gap-2 p-4 rounded-xl bg-red-50 border border-red-200 text-red-700">
                     <span>Something went wrong. Please try again.</span>
                   </div>
                 )}
               </form>
-            </div>
+            </Card>
           </div>
         </div>
       </div>

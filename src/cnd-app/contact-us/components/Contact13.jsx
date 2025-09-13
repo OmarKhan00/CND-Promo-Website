@@ -1,6 +1,9 @@
-import { Button } from "@relume_io/relume-ui";
 import React from "react";
 import { FaEnvelope } from "react-icons/fa";
+import { Input } from "../../../components/ui/input";
+import { Textarea } from "../../../components/ui/textarea";
+import { Button } from "../../../components/ui/button";
+import { Card } from "../../../components/ui/card";
 
 export function Contact13() {
   return (
@@ -27,17 +30,17 @@ export function Contact13() {
               </div>
             </div>
           </div>
-          <div className="rounded-xl bg-white/10 backdrop-blur-sm p-8 shadow-xl">
+          <Card className="p-8 text-gray-800">
             <form className="space-y-6">
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div>
                   <label htmlFor="firstName" className="mb-2 block text-sm font-medium">
                     First Name
                   </label>
-                  <input
+                  <Input
                     type="text"
                     id="firstName"
-                    className="w-full rounded-lg border border-french-gray/30 bg-transparent p-3 text-white placeholder-french-gray/50 focus:border-accent focus:outline-none"
+                    className="bg-white/80"
                     placeholder="John"
                   />
                 </div>
@@ -45,10 +48,10 @@ export function Contact13() {
                   <label htmlFor="lastName" className="mb-2 block text-sm font-medium">
                     Last Name
                   </label>
-                  <input
+                  <Input
                     type="text"
                     id="lastName"
-                    className="w-full rounded-lg border border-french-gray/30 bg-transparent p-3 text-white placeholder-french-gray/50 focus:border-accent focus:outline-none"
+                    className="bg-white/80"
                     placeholder="Doe"
                   />
                 </div>
@@ -57,10 +60,10 @@ export function Contact13() {
                 <label htmlFor="email" className="mb-2 block text-sm font-medium">
                   Email Address
                 </label>
-                <input
+                <Input
                   type="email"
                   id="email"
-                  className="w-full rounded-lg border border-french-gray/30 bg-transparent p-3 text-white placeholder-french-gray/50 focus:border-accent focus:outline-none"
+                  className="bg-white/80"
                   placeholder="john.doe@example.com"
                 />
               </div>
@@ -68,21 +71,20 @@ export function Contact13() {
                 <label htmlFor="message" className="mb-2 block text-sm font-medium">
                   Message
                 </label>
-                <textarea
+                <Textarea
                   id="message"
                   rows="4"
-                  className="w-full rounded-lg border border-french-gray/30 bg-transparent p-3 text-white placeholder-french-gray/50 focus:border-accent focus:outline-none"
+                  className="bg-white/80"
                   placeholder="How can we help you?"
-                ></textarea>
+                />
               </div>
-              <Button 
-                title="Send Message"
+              <Button
                 className="w-full bg-accent hover:bg-malachite text-mineral-green font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
               >
                 Send Message
               </Button>
             </form>
-          </div>
+          </Card>
         </div>
       </div>
     </section>
