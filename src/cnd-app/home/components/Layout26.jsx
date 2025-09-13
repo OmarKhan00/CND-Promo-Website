@@ -61,12 +61,12 @@ export function Layout26() {
                 </div>
               </div>
             <div className="mt-6 flex flex-wrap items-center  gap-4 md:mt-8 flex">
-              {/* <Button title="Learn More" variant="secondary" className="bg-governor-bay hover:bg-malachite text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 btn-pulse px-8 py-3 text-lg">
+              {/* <Button title="Learn More" variant="secondary" className="bg-governor-bay hover:bg-malachite text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 px-8 py-3 text-lg">
                 Learn More
               </Button> */}
                  <a
                 href="/contact-us" // or any path you want to link to
-                className="bg-governor-bay hover:bg-malachite text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 btn-pulse px-8 py-3 text-lg "
+                className="bg-governor-bay hover:bg-malachite text-white font-bold rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-1 px-8 py-3 text-lg "
               >
                 Learn More
               </a>

@@ -51,9 +51,9 @@ export function Layout3() {
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit, index) => (
-            <div 
-              key={index} 
-              className="card-hover flex flex-col items-start rounded-xl bg-white p-6 shadow-md"
+            <div
+              key={index}
+              className="flex flex-col items-start rounded-xl bg-white p-6 shadow-md transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg"
             >
               <div className="mb-4 rounded-full bg-accent p-3 ">
                 {benefit.icon}
