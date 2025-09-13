@@ -5,7 +5,7 @@ import ContactUs from './cnd-app/contact-us/index';
 import ForDrivers from './cnd-app/for-drivers/index';
 import ForHosts from './cnd-app/for-hosts/index';
 import Home from './cnd-app/home/index';
-import PrivacyPolicy from './Pages/PrivacyPolicy';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import './App.css';
 
 function App() {
