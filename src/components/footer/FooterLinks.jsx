@@ -3,56 +3,51 @@ import { BiCar } from "react-icons/bi";
 
 export default function FooterLinks() {
   return (
-    <div className="grid grid-cols-1 items-start gap-x-8 gap-y-10 sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 md:gap-x-8 lg:grid-cols-4">
-      <a
-        href="/"
-        className="sm:col-start-1 sm:col-end-4 sm:row-start-1 sm:row-end-2 lg:col-start-auto lg:col-end-auto lg:row-start-auto lg:row-end-auto group"
-      >
-        <div className="flex items-center gap-3 p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:shadow-xl min-w-fit">
-          <BiCar className="text-emerald-400 text-3xl group-hover:rotate-12 transition-transform duration-300 flex-shrink-0" />
-          <span className="text-lg font-bold text-white whitespace-nowrap">CND</span>
-        </div>
+    <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+      <a href="/" className="col-span-2 flex items-center gap-2 sm:col-span-1">
+        <BiCar className="h-6 w-6" />
+        <span className="font-bold text-foreground">CND</span>
       </a>
-      <div className="flex flex-col items-start justify-start p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-        <h2 className="mb-3 font-semibold md:mb-4 text-emerald-300">Quick Links</h2>
-        <ul>
-          <li className="py-2 text-sm">
-            <a href="/" className="flex items-center gap-3 hover:text-emerald-400 transition-colors duration-200">
+      <div className="flex flex-col gap-2">
+        <h2 className="font-semibold text-foreground">Quick Links</h2>
+        <ul className="space-y-2">
+          <li>
+            <a href="/" className="hover:text-foreground">
               Home
             </a>
           </li>
-          <li className="py-2 text-sm">
-            <a href="/about-us" className="flex items-center gap-3 hover:text-emerald-400 transition-colors duration-200">
+          <li>
+            <a href="/about-us" className="hover:text-foreground">
               About Us
             </a>
           </li>
         </ul>
       </div>
-      <div className="flex flex-col items-start justify-start p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-        <h2 className="mb-3 font-semibold md:mb-4 text-emerald-300">Resources</h2>
-        <ul>
-          <li className="py-2 text-sm">
-            <a href="/contact-us" className="flex items-center gap-3 hover:text-emerald-400 transition-colors duration-200">
+      <div className="flex flex-col gap-2">
+        <h2 className="font-semibold text-foreground">Resources</h2>
+        <ul className="space-y-2">
+          <li>
+            <a href="/contact-us" className="hover:text-foreground">
               FAQ
             </a>
           </li>
-          <li className="py-2 text-sm">
-            <a href="/contact-us#contact-form" className="flex items-center gap-3 hover:text-emerald-400 transition-colors duration-200">
+          <li>
+            <a href="/contact-us#contact-form" className="hover:text-foreground">
               Support
             </a>
           </li>
-          <li className="py-2 text-sm">
-            <a href="/contact-us#contact-form" className="flex items-center gap-3 hover:text-emerald-400 transition-colors duration-200">
+          <li>
+            <a href="/contact-us#contact-form" className="hover:text-foreground">
               Contact Us
             </a>
           </li>
         </ul>
       </div>
-      <div className="flex flex-col items-start justify-start p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
-        <h2 className="mb-3 font-semibold md:mb-4 text-emerald-300">Legal</h2>
-        <ul>
-          <li className="py-2 text-sm">
-            <a href="/privacy-policy" className="flex items-center gap-3 hover:text-emerald-400 transition-colors duration-200">
+      <div className="flex flex-col gap-2">
+        <h2 className="font-semibold text-foreground">Legal</h2>
+        <ul className="space-y-2">
+          <li>
+            <a href="/privacy-policy" className="hover:text-foreground">
               Privacy Policy
             </a>
           </li>

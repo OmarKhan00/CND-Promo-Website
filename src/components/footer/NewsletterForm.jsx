@@ -11,7 +11,7 @@ export default function NewsletterForm() {
 
   return (
     <>
-      <h1 className="mb-3 font-semibold md:mb-4">Subscribe</h1>
+      <h1 className="mb-3 font-semibold text-foreground md:mb-4">Subscribe</h1>
       <p className="mb-3 text-sm md:mb-4">
         Join our newsletter for the latest updates and exclusive offers.
       </p>
