@@ -1,11 +1,11 @@
 import React from "react";
-import { MainNavbar } from "../../components/common/MainNavbar";
+import { MainNavbar } from "components/common/MainNavbar";
 import { SmartChargingHeader } from "./components/SmartChargingHeader";
 import { Layout3 } from "./components/Layout3";
-import { Layout12 } from "./components/Layout12";
-import { Layout3_1 } from "./components/Layout3_1";
+import { DriverBenefits } from "./components/DriverBenefits";
+import { Layout3Alt } from "./components/Layout3Alt";
 import { Cta1 } from "./components/Cta1";
-import Footer from "../../components/footer/Footer";
+import Footer from "components/footer/Footer";
 
 export default function ForDrivers() {
   return (
@@ -13,8 +13,8 @@ export default function ForDrivers() {
       <MainNavbar />
       <SmartChargingHeader />
       <Layout3 />
-      <Layout12 />
-      <Layout3_1 />
+  <DriverBenefits />
+  <Layout3Alt />
       <Cta1 />
       <Footer />
     </div>

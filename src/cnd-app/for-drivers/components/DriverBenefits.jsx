@@ -7,9 +7,7 @@ import WaitingImage from '../../../assets/waiting.png';
 import AffordableImage from '../../../assets/afforable.png';
 import EasyIconImage from '../../../assets/easy-icon.png';
 
-
-
-export function Layout12() {
+export function DriverBenefits() {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
@@ -21,8 +19,8 @@ export function Layout12() {
             <p className="mb-6 md:mb-8 md:text-md text-black">
               Say goodbye to the anxiety of public charging stations. Our
               platform connects you with vetted hosts offering secure home
-              charging options.
-              Soon, you'll be able to experience secure and convenient charging at trusted hosts' homes.
+              charging options. Soon, you'll be able to experience secure and
+              convenient charging at trusted hosts' homes.
             </p>
           </div>
           <div>
@@ -34,7 +32,7 @@ export function Layout12() {
           </div>
         </div>
 
-        {/* "Why Rent Out" Section */}
+        {/* Why Rent Out */}
         <div className="flex flex-col items-start mt-16">
           <div className="mb-12 w-full max-w-lg md:mb-18 lg:mb-20 mx-auto ">
             <h3 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-6xl text-center text-governor-bay">
@@ -44,11 +42,7 @@ export function Layout12() {
           <div className="grid grid-cols-1 items-stretch gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12 ">
             <div className="flex flex-col h-full">
               <div className="flex justify-center mb-1">
-                <img
-                  src={AffordableImage}
-                  alt="Affordable charging icon"
-                  className="size-40"
-                />
+                <img src={AffordableImage} alt="Affordable charging icon" className="size-40" />
               </div>
               <h3 className=" min-h-[60px] mb-5 text-xl font-bold md:mb-6 md:text-2xl text-governor-bay">
                 Affordable Charging 
@@ -60,11 +54,7 @@ export function Layout12() {
             </div>
             <div className="flex flex-col h-full">
               <div className="flex justify-center mb-1">
-                <img
-                  src={EasyIconImage}
-                  alt="Simple setup icon"
-                  className="size-40"
-                />
+                <img src={EasyIconImage} alt="Simple setup icon" className="size-40" />
               </div>
               <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl text-governor-bay">
                 Simple Setup, No Technical Expertise Needed
@@ -76,11 +66,7 @@ export function Layout12() {
             </div>
             <div className="flex flex-col h-full">
               <div className="flex justify-center mb-1">
-                <img
-                  src={WaitingImage}
-                  alt="No waiting at chargers illustration"
-                  className="size-40"
-                />
+                <img src={WaitingImage} alt="No waiting at chargers illustration" className="size-40" />
               </div>
               <h3 className="mb-5 text-xl font-bold md:mb-6 md:text-2xl text-governor-bay">
                 No more waiting or charger hogging

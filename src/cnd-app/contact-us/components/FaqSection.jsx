@@ -39,15 +39,15 @@ const FaqSection = (props) => {
       <div className="absolute bottom-10 -right-20 w-80 h-80 bg-gradient-to-r from-blue-400/5 to-purple-400/5 rounded-full blur-3xl"></div>
       
       <div className="container max-w-4xl relative z-10">
-        {/* /* Header Section */}
+        {/* Header Section */}
           <div className="mb-12 text-center md:mb-18 lg:mb-20">
             <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-50 to-blue-50 border border-emerald-200/50 rounded-full text-base font-medium text-emerald-700 shadow-sm backdrop-blur-sm mb-6">
               <span className="w-4 h-4 bg-emerald-400 rounded-full mr-3 animate-pulse"></span>
               Frequently Asked Questions
             </div>
-            {/* <h2 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-6xl bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent mb-6">
+            <h2 className="text-4xl leading-[1.2] font-bold md:text-5xl lg:text-6xl bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent mb-6">
               {heading}
-            </h2> */}
+            </h2>
           <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">{description}</p>
         </div>
 

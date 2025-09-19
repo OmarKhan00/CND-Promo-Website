@@ -129,7 +129,7 @@ export function Section2() {
 }
 
 
-export function Layout12() {
+export function HomeBenefitsAlt() {
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 relative overflow-hidden bg-white">
       {/* Background decorative elements - enhanced with more malachite elements */}
